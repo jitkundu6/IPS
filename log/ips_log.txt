@@ -1,0 +1,1653 @@
+python3.9 /home/subhkundu/Documents/MyProject/IPS/ips.py
+Connected to /dev/ttyACM0 at 115200 baud
+
+
+
+######### Received
+distance: 2.78    |   smooth: 2.78   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.71', 'mcpd_ifft': '2.78', 'mcpd_phase_slope': '5.15', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '2.78'}
+tag_loaction:  (0.9, 1.89)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 1, 'DD:F8:63:2F:91:E3': 2.78, 'FA:25:A4:44:D3:FC': 1}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 0.8956003573022957, 'DD:F8:63:2F:91:E3': 2.7481084403640264, 'FA:25:A4:44:D3:FC': 3.7526124233658877}
+
+
+
+######### Received
+distance: 3.52    |   smooth: 3.52   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '3.52', 'mcpd_phase_slope': '7.57', 'mcpd_rssi_openspace': '12.59', 'mcpd_best': '3.52'}
+tag_loaction:  (0.9, 1.18)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 1, 'DD:F8:63:2F:91:E3': 2.78, 'FA:25:A4:44:D3:FC': 3.52}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 0.20591260281973994, 'DD:F8:63:2F:91:E3': 2.6062233212063775, 'FA:25:A4:44:D3:FC': 4.359174233728218}
+
+
+
+######### Received
+distance: 3.53    |   smooth: 3.53   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '4.03', 'mcpd_ifft': '3.53', 'mcpd_phase_slope': '6.54', 'mcpd_rssi_openspace': '12.59', 'mcpd_best': '3.53'}
+tag_loaction:  (0.9, 1.17)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 1, 'DD:F8:63:2F:91:E3': 2.78, 'FA:25:A4:44:D3:FC': 3.53}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 0.19723082923316013, 'DD:F8:63:2F:91:E3': 2.605551764981844, 'FA:25:A4:44:D3:FC': 4.367940017903177}
+
+
+
+######### Received
+distance: 3.52    |   smooth: 3.52   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.75', 'mcpd_ifft': '3.52', 'mcpd_phase_slope': '7.05', 'mcpd_rssi_openspace': '4.47', 'mcpd_best': '3.52'}
+tag_loaction:  (3.18, 1.6)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.78, 'FA:25:A4:44:D3:FC': 3.53}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.261061697521764, 'DD:F8:63:2F:91:E3': 0.6799999999999999, 'FA:25:A4:44:D3:FC': 3.4047613719613303}
+
+
+
+######### Received
+distance: 3.81    |   smooth: 3.81   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.95', 'mcpd_ifft': '3.81', 'mcpd_phase_slope': '7.14', 'mcpd_rssi_openspace': '5.01', 'mcpd_best': '3.81'}
+tag_loaction:  (3.61, 1.68)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.78, 'FA:25:A4:44:D3:FC': 3.53}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.697128102259883, 'DD:F8:63:2F:91:E3': 0.6888396039717809, 'FA:25:A4:44:D3:FC': 3.375574025258519}
+
+
+
+######### Received
+distance: 2.34    |   smooth: 2.34   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '2.34', 'mcpd_phase_slope': '9.67', 'mcpd_rssi_openspace': '6.31', 'mcpd_best': '2.34'}
+tag_loaction:  (1.8, 1.34)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 2.34, 'DD:F8:63:2F:91:E3': 2.78, 'FA:25:A4:44:D3:FC': 3.53}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 0.8692525524840293, 'DD:F8:63:2F:91:E3': 1.7336666346215468, 'FA:25:A4:44:D3:FC': 3.851700922968968}
+
+
+
+######### Received
+distance: 3.81    |   smooth: 3.81   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '4.11', 'mcpd_ifft': '3.81', 'mcpd_phase_slope': '8.10', 'mcpd_rssi_openspace': '8.91', 'mcpd_best': '3.81'}
+tag_loaction:  (3.61, 1.68)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.78, 'FA:25:A4:44:D3:FC': 3.53}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.697128102259883, 'DD:F8:63:2F:91:E3': 0.6888396039717809, 'FA:25:A4:44:D3:FC': 3.375574025258519}
+
+
+
+######### Received
+distance: 3.52    |   smooth: 3.52   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '3.73', 'mcpd_ifft': '3.52', 'mcpd_phase_slope': '6.43', 'mcpd_rssi_openspace': '14.13', 'mcpd_best': '3.52'}
+tag_loaction:  (3.61, 1.68)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.78, 'FA:25:A4:44:D3:FC': 3.52}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.697128102259883, 'DD:F8:63:2F:91:E3': 0.6888396039717809, 'FA:25:A4:44:D3:FC': 3.375574025258519}
+
+
+
+######### Received
+distance: 3.52    |   smooth: 3.52   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.81', 'mcpd_ifft': '3.52', 'mcpd_phase_slope': '6.85', 'mcpd_rssi_openspace': '8.91', 'mcpd_best': '3.52'}
+tag_loaction:  (3.18, 1.6)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.78, 'FA:25:A4:44:D3:FC': 3.52}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.261061697521764, 'DD:F8:63:2F:91:E3': 0.6799999999999999, 'FA:25:A4:44:D3:FC': 3.4047613719613303}
+
+
+
+######### Received
+distance: 2.44    |   smooth: 2.44   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '3.05', 'mcpd_ifft': '2.44', 'mcpd_phase_slope': '6.81', 'mcpd_rssi_openspace': '5.01', 'mcpd_best': '2.44'}
+tag_loaction:  (3.54, 1.56)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.44, 'FA:25:A4:44:D3:FC': 3.52}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.600999807766237, 'DD:F8:63:2F:91:E3': 0.5614267539047281, 'FA:25:A4:44:D3:FC': 3.4821257875039495}
+
+
+
+######### Received
+distance: 2.46    |   smooth: 2.46   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '2.46', 'mcpd_phase_slope': '6.34', 'mcpd_rssi_openspace': '6.31', 'mcpd_best': '2.46'}
+tag_loaction:  (3.52, 1.56)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.46, 'FA:25:A4:44:D3:FC': 3.52}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.5814724480420086, 'DD:F8:63:2F:91:E3': 0.560357029044876, 'FA:25:A4:44:D3:FC': 3.4790803382503257}
+
+
+
+######### Received
+distance: 3.52    |   smooth: 3.52   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.82', 'mcpd_ifft': '3.52', 'mcpd_phase_slope': '7.32', 'mcpd_rssi_openspace': '4.47', 'mcpd_best': '3.52'}
+tag_loaction:  (3.52, 1.56)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.46, 'FA:25:A4:44:D3:FC': 3.52}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.5814724480420086, 'DD:F8:63:2F:91:E3': 0.560357029044876, 'FA:25:A4:44:D3:FC': 3.4790803382503257}
+
+
+
+######### Received
+distance: 3.0    |   smooth: 3.0   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '3.37', 'mcpd_ifft': '3.00', 'mcpd_phase_slope': '8.27', 'mcpd_rssi_openspace': '25.12', 'mcpd_best': '3.00'}
+tag_loaction:  (3.52, 1.77)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.46, 'FA:25:A4:44:D3:FC': 3.0}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.63501423146062, 'DD:F8:63:2F:91:E3': 0.7702596964660685, 'FA:25:A4:44:D3:FC': 3.2715898275914723}
+
+
+
+######### Received
+distance: 3.52    |   smooth: 3.52   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.80', 'mcpd_ifft': '3.52', 'mcpd_phase_slope': '7.13', 'mcpd_rssi_openspace': '4.47', 'mcpd_best': '3.52'}
+tag_loaction:  (3.52, 1.77)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.46, 'FA:25:A4:44:D3:FC': 3.0}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.63501423146062, 'DD:F8:63:2F:91:E3': 0.7702596964660685, 'FA:25:A4:44:D3:FC': 3.2715898275914723}
+
+
+
+######### Received
+distance: 3.52    |   smooth: 3.52   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.82', 'mcpd_ifft': '3.52', 'mcpd_phase_slope': '7.37', 'mcpd_rssi_openspace': '6.31', 'mcpd_best': '3.52'}
+tag_loaction:  (3.52, 1.77)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.46, 'FA:25:A4:44:D3:FC': 3.0}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.63501423146062, 'DD:F8:63:2F:91:E3': 0.7702596964660685, 'FA:25:A4:44:D3:FC': 3.2715898275914723}
+
+
+
+######### Received
+distance: 3.52    |   smooth: 3.52   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.69', 'mcpd_ifft': '3.52', 'mcpd_phase_slope': '7.41', 'mcpd_rssi_openspace': '4.47', 'mcpd_best': '3.52'}
+tag_loaction:  (3.52, 1.77)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.46, 'FA:25:A4:44:D3:FC': 3.0}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.63501423146062, 'DD:F8:63:2F:91:E3': 0.7702596964660685, 'FA:25:A4:44:D3:FC': 3.2715898275914723}
+
+
+
+######### Received
+distance: 3.81    |   smooth: 3.81   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '4.03', 'mcpd_ifft': '3.81', 'mcpd_phase_slope': '7.40', 'mcpd_rssi_openspace': '5.01', 'mcpd_best': '3.81'}
+tag_loaction:  (3.94, 1.85)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.46, 'FA:25:A4:44:D3:FC': 3.0}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.0604084694693943, 'DD:F8:63:2F:91:E3': 0.957131129992124, 'FA:25:A4:44:D3:FC': 3.287263299463552}
+
+
+
+######### Received
+distance: 3.52    |   smooth: 3.52   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '3.71', 'mcpd_ifft': '3.52', 'mcpd_phase_slope': '7.73', 'mcpd_rssi_openspace': '14.13', 'mcpd_best': '3.52'}
+tag_loaction:  (3.94, 1.64)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.46, 'FA:25:A4:44:D3:FC': 3.52}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.008853602287755, 'DD:F8:63:2F:91:E3': 0.7766595135579039, 'FA:25:A4:44:D3:FC': 3.4890113212771325}
+
+
+
+######### Received
+distance: 3.83    |   smooth: 3.83   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '3.90', 'mcpd_ifft': '3.83', 'mcpd_phase_slope': '6.22', 'mcpd_rssi_openspace': '10.00', 'mcpd_best': '3.83'}
+tag_loaction:  (3.94, 1.5)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.46, 'FA:25:A4:44:D3:FC': 3.83}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.9822139426942527, 'DD:F8:63:2F:91:E3': 0.6660330322138684, 'FA:25:A4:44:D3:FC': 3.624030904945486}
+
+
+
+######### Received
+distance: 3.52    |   smooth: 3.52   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '3.52', 'mcpd_phase_slope': '7.90', 'mcpd_rssi_openspace': '8.91', 'mcpd_best': '3.52'}
+tag_loaction:  (3.94, 1.64)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.46, 'FA:25:A4:44:D3:FC': 3.52}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.008853602287755, 'DD:F8:63:2F:91:E3': 0.7766595135579039, 'FA:25:A4:44:D3:FC': 3.4890113212771325}
+
+
+
+######### Received
+distance: 3.52    |   smooth: 3.52   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.84', 'mcpd_ifft': '3.52', 'mcpd_phase_slope': '6.93', 'mcpd_rssi_openspace': '6.31', 'mcpd_best': '3.52'}
+tag_loaction:  (3.52, 1.56)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.46, 'FA:25:A4:44:D3:FC': 3.52}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.5814724480420086, 'DD:F8:63:2F:91:E3': 0.560357029044876, 'FA:25:A4:44:D3:FC': 3.4790803382503257}
+
+
+
+######### Received
+distance: 2.49    |   smooth: 2.49   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.75', 'mcpd_ifft': '2.49', 'mcpd_phase_slope': '6.20', 'mcpd_rssi_openspace': '6.31', 'mcpd_best': '2.49'}
+tag_loaction:  (3.49, 1.56)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.49, 'FA:25:A4:44:D3:FC': 3.52}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.5521951336055793, 'DD:F8:63:2F:91:E3': 0.5600892785976179, 'FA:25:A4:44:D3:FC': 3.47472301054343}
+
+
+
+######### Received
+distance: 3.52    |   smooth: 3.52   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.92', 'mcpd_ifft': '3.52', 'mcpd_phase_slope': '6.52', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '3.52'}
+tag_loaction:  (3.49, 1.56)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.49, 'FA:25:A4:44:D3:FC': 3.52}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.5521951336055793, 'DD:F8:63:2F:91:E3': 0.5600892785976179, 'FA:25:A4:44:D3:FC': 3.47472301054343}
+
+
+
+######### Received
+distance: 2.75    |   smooth: 2.75   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '2.75', 'mcpd_phase_slope': '6.58', 'mcpd_rssi_openspace': '5.62', 'mcpd_best': '2.75'}
+tag_loaction:  (3.22, 1.6)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.75, 'FA:25:A4:44:D3:FC': 3.52}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.299652147608416, 'DD:F8:63:2F:91:E3': 0.6621178142898739, 'FA:25:A4:44:D3:FC': 3.4071102124821264}
+
+
+
+######### Received
+distance: 2.94    |   smooth: 2.94   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '3.18', 'mcpd_ifft': '2.94', 'mcpd_phase_slope': '6.30', 'mcpd_rssi_openspace': '3.98', 'mcpd_best': '2.94'}
+tag_loaction:  (3.0, 1.63)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.94, 'FA:25:A4:44:D3:FC': 3.52}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.096878632634707, 'DD:F8:63:2F:91:E3': 0.8043009387039156, 'FA:25:A4:44:D3:FC': 3.37}
+
+
+
+######### Received
+distance: 2.75    |   smooth: 2.75   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.76', 'mcpd_ifft': '2.75', 'mcpd_phase_slope': '6.04', 'mcpd_rssi_openspace': '5.62', 'mcpd_best': '2.75'}
+tag_loaction:  (3.22, 1.6)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.75, 'FA:25:A4:44:D3:FC': 3.52}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.299652147608416, 'DD:F8:63:2F:91:E3': 0.6621178142898739, 'FA:25:A4:44:D3:FC': 3.4071102124821264}
+
+
+
+######### Received
+distance: 3.5    |   smooth: 3.5   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '3.91', 'mcpd_ifft': '3.50', 'mcpd_phase_slope': '7.96', 'mcpd_rssi_openspace': '19.95', 'mcpd_best': '3.50'}
+tag_loaction:  (3.22, 1.61)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.75, 'FA:25:A4:44:D3:FC': 3.5}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.3022814771439224, 'DD:F8:63:2F:91:E3': 0.6711929677819933, 'FA:25:A4:44:D3:FC': 3.397131142596647}
+
+
+
+######### Received
+distance: 3.42    |   smooth: 3.42   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '3.62', 'mcpd_ifft': '3.42', 'mcpd_phase_slope': '7.31', 'mcpd_rssi_openspace': '12.59', 'mcpd_best': '3.42'}
+tag_loaction:  (3.22, 1.64)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.75, 'FA:25:A4:44:D3:FC': 3.42}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.3104112188093273, 'DD:F8:63:2F:91:E3': 0.698569967862919, 'FA:25:A4:44:D3:FC': 3.3671946780665953}
+
+
+
+######### Received
+distance: 2.93    |   smooth: 2.93   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '3.39', 'mcpd_ifft': '2.93', 'mcpd_phase_slope': '7.55', 'mcpd_rssi_openspace': '8.91', 'mcpd_best': '2.93'}
+tag_loaction:  (3.22, 1.84)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.75, 'FA:25:A4:44:D3:FC': 2.93}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.373604853382298, 'DD:F8:63:2F:91:E3': 0.8854377448471462, 'FA:25:A4:44:D3:FC': 3.167648970451114}
+
+
+
+######### Received
+distance: 3.58    |   smooth: 3.58   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '3.79', 'mcpd_ifft': '3.58', 'mcpd_phase_slope': '7.50', 'mcpd_rssi_openspace': '8.91', 'mcpd_best': '3.58'}
+tag_loaction:  (3.22, 1.57)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.75, 'FA:25:A4:44:D3:FC': 3.58}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.2920078533896873, 'DD:F8:63:2F:91:E3': 0.6350590523722971, 'FA:25:A4:44:D3:FC': 3.4370481521212355}
+
+
+
+######### Received
+distance: 3.59    |   smooth: 3.59   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '3.79', 'mcpd_ifft': '3.59', 'mcpd_phase_slope': '7.97', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '3.59'}
+tag_loaction:  (3.22, 1.57)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.75, 'FA:25:A4:44:D3:FC': 3.59}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.2920078533896873, 'DD:F8:63:2F:91:E3': 0.6350590523722971, 'FA:25:A4:44:D3:FC': 3.4370481521212355}
+
+
+
+######### Received
+distance: 3.7    |   smooth: 3.7   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '3.81', 'mcpd_ifft': '3.70', 'mcpd_phase_slope': '7.41', 'mcpd_rssi_openspace': '11.22', 'mcpd_best': '3.70'}
+tag_loaction:  (3.22, 1.52)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.75, 'FA:25:A4:44:D3:FC': 3.7}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.280087717610882, 'DD:F8:63:2F:91:E3': 0.5905929224093359, 'FA:25:A4:44:D3:FC': 3.4869470887869807}
+
+
+
+######### Received
+distance: 2.52    |   smooth: 2.52   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.48', 'mcpd_ifft': '2.52', 'mcpd_phase_slope': '4.98', 'mcpd_rssi_openspace': '6.31', 'mcpd_best': '2.52'}
+tag_loaction:  (3.46, 1.49)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.52, 'FA:25:A4:44:D3:FC': 3.7}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.5083261350948765, 'DD:F8:63:2F:91:E3': 0.49162994213127414, 'FA:25:A4:44:D3:FC': 3.540014124265608}
+
+
+
+######### Received
+distance: 2.52    |   smooth: 2.52   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.49', 'mcpd_ifft': '2.52', 'mcpd_phase_slope': '5.05', 'mcpd_rssi_openspace': '6.31', 'mcpd_best': '2.52'}
+tag_loaction:  (3.46, 1.49)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.52, 'DD:F8:63:2F:91:E3': 2.52, 'FA:25:A4:44:D3:FC': 3.7}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.5083261350948765, 'DD:F8:63:2F:91:E3': 0.49162994213127414, 'FA:25:A4:44:D3:FC': 3.540014124265608}
+
+
+
+######### Received
+distance: 3.81    |   smooth: 3.81   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '3.81', 'mcpd_phase_slope': '5.93', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '3.81'}
+tag_loaction:  (3.88, 1.57)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.52, 'FA:25:A4:44:D3:FC': 3.7}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.9358644382872994, 'DD:F8:63:2F:91:E3': 0.685054742338158, 'FA:25:A4:44:D3:FC': 3.5410874036092355}
+
+
+
+######### Received
+distance: 2.55    |   smooth: 2.55   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '2.55', 'mcpd_phase_slope': '4.55', 'mcpd_rssi_openspace': '6.31', 'mcpd_best': '2.55'}
+tag_loaction:  (3.85, 1.57)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.55, 'FA:25:A4:44:D3:FC': 3.7}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.9064411227478875, 'DD:F8:63:2F:91:E3': 0.6688796603276258, 'FA:25:A4:44:D3:FC': 3.5337515475765975}
+
+
+
+######### Received
+distance: 2.55    |   smooth: 2.55   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.54', 'mcpd_ifft': '2.55', 'mcpd_phase_slope': '5.04', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '2.55'}
+tag_loaction:  (3.85, 1.57)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.55, 'FA:25:A4:44:D3:FC': 3.7}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.9064411227478875, 'DD:F8:63:2F:91:E3': 0.6688796603276258, 'FA:25:A4:44:D3:FC': 3.5337515475765975}
+
+
+
+######### Received
+distance: 3.81    |   smooth: 3.81   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '3.81', 'mcpd_phase_slope': '6.59', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '3.81'}
+tag_loaction:  (3.85, 1.57)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.55, 'FA:25:A4:44:D3:FC': 3.7}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.9064411227478875, 'DD:F8:63:2F:91:E3': 0.6688796603276258, 'FA:25:A4:44:D3:FC': 3.5337515475765975}
+
+
+
+######### Received
+distance: 3.81    |   smooth: 3.81   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.80', 'mcpd_ifft': '3.81', 'mcpd_phase_slope': '6.41', 'mcpd_rssi_openspace': '5.01', 'mcpd_best': '3.81'}
+tag_loaction:  (3.85, 1.57)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.55, 'FA:25:A4:44:D3:FC': 3.7}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.9064411227478875, 'DD:F8:63:2F:91:E3': 0.6688796603276258, 'FA:25:A4:44:D3:FC': 3.5337515475765975}
+
+
+
+######### Received
+distance: 2.55    |   smooth: 2.55   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.53', 'mcpd_ifft': '2.55', 'mcpd_phase_slope': '5.11', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '2.55'}
+tag_loaction:  (3.85, 1.57)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.55, 'FA:25:A4:44:D3:FC': 3.7}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.9064411227478875, 'DD:F8:63:2F:91:E3': 0.6688796603276258, 'FA:25:A4:44:D3:FC': 3.5337515475765975}
+
+
+
+######### Received
+distance: 3.64    |   smooth: 3.64   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '3.78', 'mcpd_ifft': '3.64', 'mcpd_phase_slope': '7.41', 'mcpd_rssi_openspace': '7.94', 'mcpd_best': '3.64'}
+tag_loaction:  (3.85, 1.6)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.55, 'FA:25:A4:44:D3:FC': 3.64}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.91247317584214, 'DD:F8:63:2F:91:E3': 0.6946221994724904, 'FA:25:A4:44:D3:FC': 3.5046397817750115}
+
+
+
+######### Received
+distance: 2.6    |   smooth: 2.6   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.50', 'mcpd_ifft': '2.60', 'mcpd_phase_slope': '4.92', 'mcpd_rssi_openspace': '5.01', 'mcpd_best': '2.60'}
+tag_loaction:  (3.8, 1.6)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.6, 'FA:25:A4:44:D3:FC': 3.64}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.8635642126552705, 'DD:F8:63:2F:91:E3': 0.6708203932499369, 'FA:25:A4:44:D3:FC': 3.492849839314596}
+
+
+
+######### Received
+distance: 2.48    |   smooth: 2.48   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.42', 'mcpd_ifft': '2.48', 'mcpd_phase_slope': '5.12', 'mcpd_rssi_openspace': '6.31', 'mcpd_best': '2.48'}
+tag_loaction:  (3.92, 1.59)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.48, 'FA:25:A4:44:D3:FC': 3.64}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.9790099026354375, 'DD:F8:63:2F:91:E3': 0.7242237223399962, 'FA:25:A4:44:D3:FC': 3.5319258202855845}
+
+
+
+######### Received
+distance: 2.56    |   smooth: 2.56   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.67', 'mcpd_ifft': '2.56', 'mcpd_phase_slope': '5.40', 'mcpd_rssi_openspace': '7.94', 'mcpd_best': '2.56'}
+tag_loaction:  (3.84, 1.6)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.56, 'FA:25:A4:44:D3:FC': 3.64}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.9026884090442775, 'DD:F8:63:2F:91:E3': 0.6896375859826667, 'FA:25:A4:44:D3:FC': 3.502227862375605}
+
+
+
+######### Received
+distance: 3.81    |   smooth: 3.81   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.83', 'mcpd_ifft': '3.81', 'mcpd_phase_slope': '6.54', 'mcpd_rssi_openspace': '5.62', 'mcpd_best': '3.81'}
+tag_loaction:  (3.84, 1.6)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.56, 'FA:25:A4:44:D3:FC': 3.64}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.9026884090442775, 'DD:F8:63:2F:91:E3': 0.6896375859826667, 'FA:25:A4:44:D3:FC': 3.502227862375605}
+
+
+
+######### Received
+distance: 3.52    |   smooth: 3.52   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '3.74', 'mcpd_ifft': '3.52', 'mcpd_phase_slope': '7.95', 'mcpd_rssi_openspace': '8.91', 'mcpd_best': '3.52'}
+tag_loaction:  (3.84, 1.65)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.56, 'FA:25:A4:44:D3:FC': 3.52}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.913434399467405, 'DD:F8:63:2F:91:E3': 0.7335529974037321, 'FA:25:A4:44:D3:FC': 3.4537081521170836}
+
+
+
+######### Received
+distance: 3.54    |   smooth: 3.54   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '3.78', 'mcpd_ifft': '3.54', 'mcpd_phase_slope': '8.10', 'mcpd_rssi_openspace': '8.91', 'mcpd_best': '3.54'}
+tag_loaction:  (3.84, 1.64)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.56, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.911219675668602, 'DD:F8:63:2F:91:E3': 0.7247068372797374, 'FA:25:A4:44:D3:FC': 3.463408725518835}
+
+
+
+######### Received
+distance: 2.61    |   smooth: 2.61   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.65', 'mcpd_ifft': '2.61', 'mcpd_phase_slope': '5.33', 'mcpd_rssi_openspace': '6.31', 'mcpd_best': '2.61'}
+tag_loaction:  (3.79, 1.65)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.61, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.8647163908491886, 'DD:F8:63:2F:91:E3': 0.7117583859709697, 'FA:25:A4:44:D3:FC': 3.441889016223504}
+
+
+
+######### Received
+distance: 3.94    |   smooth: 3.94   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.76', 'mcpd_ifft': '3.94', 'mcpd_phase_slope': '4.88', 'mcpd_rssi_openspace': '5.01', 'mcpd_best': '3.94'}
+tag_loaction:  (3.99, 1.69)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.94, 'DD:F8:63:2F:91:E3': 2.61, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.068582734749057, 'DD:F8:63:2F:91:E3': 0.8462860036654276, 'FA:25:A4:44:D3:FC': 3.454880605751811}
+
+
+
+######### Received
+distance: 2.33    |   smooth: 2.33   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.40', 'mcpd_ifft': '2.33', 'mcpd_phase_slope': '6.46', 'mcpd_rssi_openspace': '7.94', 'mcpd_best': '2.33'}
+tag_loaction:  (4.27, 1.65)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.94, 'DD:F8:63:2F:91:E3': 2.33, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.3339766045969785, 'DD:F8:63:2F:91:E3': 1.0076705810928486, 'FA:25:A4:44:D3:FC': 3.582652648527345}
+
+
+
+######### Received
+distance: 3.58    |   smooth: 3.58   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.76', 'mcpd_ifft': '3.58', 'mcpd_phase_slope': '6.32', 'mcpd_rssi_openspace': '4.47', 'mcpd_best': '3.58'}
+tag_loaction:  (3.73, 1.55)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.58, 'DD:F8:63:2F:91:E3': 2.33, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.7848518811599297, 'DD:F8:63:2F:91:E3': 0.5961543424315553, 'FA:25:A4:44:D3:FC': 3.526386252241805}
+
+
+
+######### Received
+distance: 3.81    |   smooth: 3.81   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '4.02', 'mcpd_ifft': '3.81', 'mcpd_phase_slope': '7.35', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '3.81'}
+tag_loaction:  (4.07, 1.62)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.33, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.131980204279714, 'DD:F8:63:2F:91:E3': 0.8421995013059557, 'FA:25:A4:44:D3:FC': 3.545320859950478}
+
+
+
+######### Received
+distance: 2.64    |   smooth: 2.64   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.47', 'mcpd_ifft': '2.64', 'mcpd_phase_slope': '5.99', 'mcpd_rssi_openspace': '8.91', 'mcpd_best': '2.64'}
+tag_loaction:  (3.76, 1.65)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.64, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.835507009337131, 'DD:F8:63:2F:91:E3': 0.7000714249274853, 'FA:25:A4:44:D3:FC': 3.435127362995439}
+
+
+
+######### Received
+distance: 2.94    |   smooth: 2.94   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '2.94', 'mcpd_phase_slope': '6.04', 'mcpd_rssi_openspace': '5.01', 'mcpd_best': '2.94'}
+tag_loaction:  (3.42, 1.7)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.94, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.519206224190469, 'DD:F8:63:2F:91:E3': 0.7045565981523414, 'FA:25:A4:44:D3:FC': 3.3266199061509867}
+
+
+
+######### Received
+distance: 2.93    |   smooth: 2.93   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.92', 'mcpd_ifft': '2.93', 'mcpd_phase_slope': '5.70', 'mcpd_rssi_openspace': '5.01', 'mcpd_best': '2.93'}
+tag_loaction:  (3.44, 1.69)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.93, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.5356853117056932, 'DD:F8:63:2F:91:E3': 0.6926037828369117, 'FA:25:A4:44:D3:FC': 3.339116649654516}
+
+
+
+######### Received
+distance: 2.78    |   smooth: 2.78   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.81', 'mcpd_ifft': '2.78', 'mcpd_phase_slope': '4.77', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '2.78'}
+tag_loaction:  (3.61, 1.67)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.78, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.69462427807663, 'DD:F8:63:2F:91:E3': 0.6789698078707181, 'FA:25:A4:44:D3:FC': 3.385409871788053}
+
+
+
+######### Received
+distance: 2.44    |   smooth: 2.44   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '6.88', 'mcpd_ifft': '2.44', 'mcpd_phase_slope': '6.10', 'mcpd_rssi_openspace': '5.01', 'mcpd_best': '2.44'}
+tag_loaction:  (3.96, 1.63)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.44, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.0263013729633736, 'DD:F8:63:2F:91:E3': 0.7800640999302556, 'FA:25:A4:44:D3:FC': 3.5040690632463285}
+
+
+
+######### Received
+distance: 2.53    |   smooth: 2.53   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '2.53', 'mcpd_phase_slope': '6.76', 'mcpd_rssi_openspace': '5.01', 'mcpd_best': '2.53'}
+tag_loaction:  (3.87, 1.64)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.940493155917898, 'DD:F8:63:2F:91:E3': 0.7392563831310488, 'FA:25:A4:44:D3:FC': 3.4708068226278455}
+
+
+
+######### Received
+distance: 2.93    |   smooth: 2.93   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.24', 'mcpd_ifft': '2.93', 'mcpd_phase_slope': '6.81', 'mcpd_rssi_openspace': '14.13', 'mcpd_best': '2.93'}
+tag_loaction:  (2.69, 1.42)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 2.93, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 1.7414074767267997, 'DD:F8:63:2F:91:E3': 0.9124143795447329, 'FA:25:A4:44:D3:FC': 3.5933967217661897}
+
+
+
+######### Received
+distance: 2.36    |   smooth: 2.36   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '2.36', 'mcpd_phase_slope': '4.93', 'mcpd_rssi_openspace': '5.62', 'mcpd_best': '2.36'}
+tag_loaction:  (2.85, 1.4)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 2.93, 'DD:F8:63:2F:91:E3': 2.36, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 1.89274932307477, 'DD:F8:63:2F:91:E3': 0.7632168761236873, 'FA:25:A4:44:D3:FC': 3.6031236448392945}
+
+
+
+######### Received
+distance: 2.58    |   smooth: 2.58   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '2.58', 'mcpd_phase_slope': '5.43', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '2.58'}
+tag_loaction:  (2.64, 1.42)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 2.93, 'DD:F8:63:2F:91:E3': 2.58, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 1.692926460304759, 'DD:F8:63:2F:91:E3': 0.9570788891204317, 'FA:25:A4:44:D3:FC': 3.598055030151707}
+
+
+
+######### Received
+distance: 4.1    |   smooth: 4.1   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '4.04', 'mcpd_ifft': '4.10', 'mcpd_phase_slope': '6.40', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '4.10'}
+tag_loaction:  (4.28, 1.73)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.58, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.3602529666678373, 'DD:F8:63:2F:91:E3': 1.0683164325236227, 'FA:25:A4:44:D3:FC': 3.511595079162744}
+
+
+
+######### Received
+distance: 2.61    |   smooth: 2.61   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.63', 'mcpd_ifft': '2.61', 'mcpd_phase_slope': '5.39', 'mcpd_rssi_openspace': '5.01', 'mcpd_best': '2.61'}
+tag_loaction:  (4.25, 1.74)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.61, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.333181663216093, 'DD:F8:63:2F:91:E3': 1.0536128321162381, 'FA:25:A4:44:D3:FC': 3.4914323708186012}
+
+
+
+######### Received
+distance: 2.56    |   smooth: 2.56   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.52', 'mcpd_ifft': '2.56', 'mcpd_phase_slope': '5.58', 'mcpd_rssi_openspace': '5.01', 'mcpd_best': '2.56'}
+tag_loaction:  (4.3, 1.73)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.56, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.3797780992248585, 'DD:F8:63:2F:91:E3': 1.0830050784737806, 'FA:25:A4:44:D3:FC': 3.518934497827432}
+
+
+
+######### Received
+distance: 2.58    |   smooth: 2.58   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.63', 'mcpd_ifft': '2.58', 'mcpd_phase_slope': '5.47', 'mcpd_rssi_openspace': '7.94', 'mcpd_best': '2.58'}
+tag_loaction:  (4.28, 1.73)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.58, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.3602529666678373, 'DD:F8:63:2F:91:E3': 1.0683164325236227, 'FA:25:A4:44:D3:FC': 3.511595079162744}
+
+
+
+######### Received
+distance: 2.52    |   smooth: 2.52   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '0.00', 'mcpd_ifft': '2.52', 'mcpd_phase_slope': '5.53', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '2.52'}
+tag_loaction:  (4.34, 1.72)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.52, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.4167235767618074, 'DD:F8:63:2F:91:E3': 1.1063453348751464, 'FA:25:A4:44:D3:FC': 3.5431624292431194}
+
+
+
+######### Received
+distance: 3.81    |   smooth: 3.81   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.82', 'mcpd_ifft': '3.81', 'mcpd_phase_slope': '6.59', 'mcpd_rssi_openspace': '4.47', 'mcpd_best': '3.81'}
+tag_loaction:  (3.88, 1.64)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.52, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.950254226333724, 'DD:F8:63:2F:91:E3': 0.7443117626371357, 'FA:25:A4:44:D3:FC': 3.4733269353747858}
+
+
+
+######### Received
+distance: 4.1    |   smooth: 4.1   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '4.05', 'mcpd_ifft': '4.10', 'mcpd_phase_slope': '6.44', 'mcpd_rssi_openspace': '5.01', 'mcpd_best': '4.10'}
+tag_loaction:  (4.34, 1.72)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.52, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.4167235767618074, 'DD:F8:63:2F:91:E3': 1.1063453348751464, 'FA:25:A4:44:D3:FC': 3.5431624292431194}
+
+
+
+######### Received
+distance: 2.55    |   smooth: 2.55   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.51', 'mcpd_ifft': '2.55', 'mcpd_phase_slope': '5.46', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '2.55'}
+tag_loaction:  (4.31, 1.73)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.55, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.389542742022882, 'DD:F8:63:2F:91:E3': 1.090412765882718, 'FA:25:A4:44:D3:FC': 3.52264105466339}
+
+
+
+######### Received
+distance: 2.55    |   smooth: 2.55   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.55', 'mcpd_ifft': '2.55', 'mcpd_phase_slope': '5.44', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '2.55'}
+tag_loaction:  (4.31, 1.73)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.55, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.389542742022882, 'DD:F8:63:2F:91:E3': 1.090412765882718, 'FA:25:A4:44:D3:FC': 3.52264105466339}
+
+
+
+######### Received
+distance: 2.62    |   smooth: 2.62   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.64', 'mcpd_ifft': '2.62', 'mcpd_phase_slope': '5.53', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '2.62'}
+tag_loaction:  (4.24, 1.74)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.62, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.323431961090824, 'DD:F8:63:2F:91:E3': 1.0465180361560904, 'FA:25:A4:44:D3:FC': 3.4878646762740093}
+
+
+
+######### Received
+distance: 2.65    |   smooth: 2.65   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.69', 'mcpd_ifft': '2.65', 'mcpd_phase_slope': '5.59', 'mcpd_rssi_openspace': '7.94', 'mcpd_best': '2.65'}
+tag_loaction:  (4.21, 1.74)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.65, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.294191858407764, 'DD:F8:63:2F:91:E3': 1.0255242561733973, 'FA:25:A4:44:D3:FC': 3.47731218040601}
+
+
+
+######### Received
+distance: 2.54    |   smooth: 2.54   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '2.54', 'mcpd_phase_slope': '5.37', 'mcpd_rssi_openspace': '7.94', 'mcpd_best': '2.54'}
+tag_loaction:  (4.32, 1.73)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.54, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.399308753261463, 'DD:F8:63:2F:91:E3': 1.0978615577567148, 'FA:25:A4:44:D3:FC': 3.526372073392143}
+
+
+
+######### Received
+distance: 2.53    |   smooth: 2.53   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '2.53', 'mcpd_ifft': '2.53', 'mcpd_phase_slope': '5.27', 'mcpd_rssi_openspace': '5.62', 'mcpd_best': '2.53'}
+tag_loaction:  (4.33, 1.73)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.54}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.409076121180048, 'DD:F8:63:2F:91:E3': 1.105350623105628, 'FA:25:A4:44:D3:FC': 3.5301274764518067}
+
+
+
+######### Received
+distance: 0.61    |   smooth: 0.61   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '3.66', 'mcpd_ifft': '0.61', 'mcpd_phase_slope': '11.21', 'mcpd_rssi_openspace': '7.94', 'mcpd_best': '0.61'}
+tag_loaction:  (4.33, 2.49)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 0.61}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.6481502162054675, 'DD:F8:63:2F:91:E3': 1.7055790805471323, 'FA:25:A4:44:D3:FC': 2.8405985284795174}
+
+
+
+######### Received
+distance: 3.55    |   smooth: 3.55   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '3.70', 'mcpd_ifft': '3.55', 'mcpd_phase_slope': '8.17', 'mcpd_rssi_openspace': '8.91', 'mcpd_best': '3.55'}
+tag_loaction:  (4.33, 1.72)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.55}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.4069487815345862, 'DD:F8:63:2F:91:E3': 1.0987720418721985, 'FA:25:A4:44:D3:FC': 3.539392603258362}
+
+
+
+######### Received
+distance: 3.52    |   smooth: 3.52   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '3.52', 'mcpd_phase_slope': '8.71', 'mcpd_rssi_openspace': '8.91', 'mcpd_best': '3.52'}
+tag_loaction:  (4.33, 1.73)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.52}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.409076121180048, 'DD:F8:63:2F:91:E3': 1.105350623105628, 'FA:25:A4:44:D3:FC': 3.5301274764518067}
+
+
+
+######### Received
+distance: 3.72    |   smooth: 3.72   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '3.87', 'mcpd_ifft': '3.72', 'mcpd_phase_slope': '7.09', 'mcpd_rssi_openspace': '8.91', 'mcpd_best': '3.72'}
+tag_loaction:  (4.33, 1.64)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.72}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.3909438214160965, 'DD:F8:63:2F:91:E3': 1.0480935072788116, 'FA:25:A4:44:D3:FC': 3.6136546597592862}
+
+
+
+######### Received
+distance: 3.75    |   smooth: 3.75   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '3.82', 'mcpd_ifft': '3.75', 'mcpd_phase_slope': '7.86', 'mcpd_rssi_openspace': '10.00', 'mcpd_best': '3.75'}
+tag_loaction:  (4.33, 1.63)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.75}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.3890706690772916, 'DD:F8:63:2F:91:E3': 1.0420172743289815, 'FA:25:A4:44:D3:FC': 3.6229545953544604}
+
+
+
+######### Received
+distance: 3.67    |   smooth: 3.67   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '3.67', 'mcpd_phase_slope': '5.15', 'mcpd_rssi_openspace': '10.00', 'mcpd_best': '3.67'}
+tag_loaction:  (4.33, 1.67)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.67}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.3967337252130907, 'DD:F8:63:2F:91:E3': 1.0666770832824712, 'FA:25:A4:44:D3:FC': 3.585777461025712}
+
+
+
+######### Received
+distance: 3.7    |   smooth: 3.7   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '3.86', 'mcpd_ifft': '3.70', 'mcpd_phase_slope': '7.20', 'mcpd_rssi_openspace': '8.91', 'mcpd_best': '3.70'}
+tag_loaction:  (4.33, 1.65)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.7}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.39284541351356, 'DD:F8:63:2F:91:E3': 1.054229576515476, 'FA:25:A4:44:D3:FC': 3.6043584727382485}
+
+
+
+######### Received
+distance: 3.78    |   smooth: 3.78   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '3.82', 'mcpd_ifft': '3.78', 'mcpd_phase_slope': '7.24', 'mcpd_rssi_openspace': '8.91', 'mcpd_best': '3.78'}
+tag_loaction:  (4.33, 1.62)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.78}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.3872260036791166, 'DD:F8:63:2F:91:E3': 1.036001930500132, 'FA:25:A4:44:D3:FC': 3.6322582507305285}
+
+
+
+######### Received
+distance: 2.64    |   smooth: 2.64   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '2.64', 'mcpd_phase_slope': '7.04', 'mcpd_rssi_openspace': '8.91', 'mcpd_best': '2.64'}
+tag_loaction:  (4.33, 2.07)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 2.64}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.497684948648177, 'DD:F8:63:2F:91:E3': 1.3541787178950937, 'FA:25:A4:44:D3:FC': 3.2177321206091722}
+
+
+
+######### Received
+distance: 3.79    |   smooth: 3.79   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '4.32', 'mcpd_ifft': '3.79', 'mcpd_phase_slope': '7.94', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '3.79'}
+tag_loaction:  (4.33, 1.61)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.385409871788053, 'DD:F8:63:2F:91:E3': 1.0300485425454473, 'FA:25:A4:44:D3:FC': 3.6415655973770398}
+
+
+
+######### Received
+distance: 3.81    |   smooth: 3.81   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.86', 'mcpd_ifft': '3.81', 'mcpd_phase_slope': '6.07', 'mcpd_rssi_openspace': '6.31', 'mcpd_best': '3.81'}
+tag_loaction:  (3.87, 1.53)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.9185270257443223, 'DD:F8:63:2F:91:E3': 0.6463745044476925, 'FA:25:A4:44:D3:FC': 3.577401291440478}
+
+
+
+######### Received
+distance: 3.81    |   smooth: 3.81   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '4.12', 'mcpd_ifft': '3.81', 'mcpd_phase_slope': '6.73', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '3.81'}
+tag_loaction:  (3.87, 1.53)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.9185270257443223, 'DD:F8:63:2F:91:E3': 0.6463745044476925, 'FA:25:A4:44:D3:FC': 3.577401291440478}
+
+
+
+######### Received
+distance: 3.81    |   smooth: 3.81   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.89', 'mcpd_ifft': '3.81', 'mcpd_phase_slope': '6.52', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '3.81'}
+tag_loaction:  (3.87, 1.53)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.9185270257443223, 'DD:F8:63:2F:91:E3': 0.6463745044476925, 'FA:25:A4:44:D3:FC': 3.577401291440478}
+
+
+
+######### Received
+distance: 3.81    |   smooth: 3.81   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.72', 'mcpd_ifft': '3.81', 'mcpd_phase_slope': '6.92', 'mcpd_rssi_openspace': '5.62', 'mcpd_best': '3.81'}
+tag_loaction:  (3.87, 1.53)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.9185270257443223, 'DD:F8:63:2F:91:E3': 0.6463745044476925, 'FA:25:A4:44:D3:FC': 3.577401291440478}
+
+
+
+######### Received
+distance: 3.81    |   smooth: 3.81   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.60', 'mcpd_ifft': '3.81', 'mcpd_phase_slope': '6.12', 'mcpd_rssi_openspace': '4.47', 'mcpd_best': '3.81'}
+tag_loaction:  (3.87, 1.53)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.9185270257443223, 'DD:F8:63:2F:91:E3': 0.6463745044476925, 'FA:25:A4:44:D3:FC': 3.577401291440478}
+
+
+
+######### Received
+distance: 3.81    |   smooth: 3.81   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.88', 'mcpd_ifft': '3.81', 'mcpd_phase_slope': '6.33', 'mcpd_rssi_openspace': '5.01', 'mcpd_best': '3.81'}
+tag_loaction:  (3.87, 1.53)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.9185270257443223, 'DD:F8:63:2F:91:E3': 0.6463745044476925, 'FA:25:A4:44:D3:FC': 3.577401291440478}
+
+
+
+######### Received
+distance: 4.1    |   smooth: 4.1   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '4.10', 'mcpd_ifft': '4.10', 'mcpd_phase_slope': '6.64', 'mcpd_rssi_openspace': '5.01', 'mcpd_best': '4.10'}
+tag_loaction:  (4.33, 1.61)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.385409871788053, 'DD:F8:63:2F:91:E3': 1.0300485425454473, 'FA:25:A4:44:D3:FC': 3.6415655973770398}
+
+
+
+######### Received
+distance: 4.1    |   smooth: 4.1   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '0.05', 'mcpd_ifft': '4.10', 'mcpd_phase_slope': '6.59', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '4.10'}
+tag_loaction:  (4.33, 1.61)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.385409871788053, 'DD:F8:63:2F:91:E3': 1.0300485425454473, 'FA:25:A4:44:D3:FC': 3.6415655973770398}
+
+
+
+######### Received
+distance: 3.81    |   smooth: 3.81   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.92', 'mcpd_ifft': '3.81', 'mcpd_phase_slope': '6.60', 'mcpd_rssi_openspace': '4.47', 'mcpd_best': '3.81'}
+tag_loaction:  (3.87, 1.53)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.9185270257443223, 'DD:F8:63:2F:91:E3': 0.6463745044476925, 'FA:25:A4:44:D3:FC': 3.577401291440478}
+
+
+
+######### Received
+distance: 4.1    |   smooth: 4.1   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.92', 'mcpd_ifft': '4.10', 'mcpd_phase_slope': '6.90', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '4.10'}
+tag_loaction:  (4.33, 1.61)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.385409871788053, 'DD:F8:63:2F:91:E3': 1.0300485425454473, 'FA:25:A4:44:D3:FC': 3.6415655973770398}
+
+
+
+######### Received
+distance: 3.81    |   smooth: 3.81   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.95', 'mcpd_ifft': '3.81', 'mcpd_phase_slope': '6.39', 'mcpd_rssi_openspace': '5.62', 'mcpd_best': '3.81'}
+tag_loaction:  (3.87, 1.53)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.9185270257443223, 'DD:F8:63:2F:91:E3': 0.6463745044476925, 'FA:25:A4:44:D3:FC': 3.577401291440478}
+
+
+
+######### Received
+distance: 4.1    |   smooth: 4.1   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '4.15', 'mcpd_ifft': '4.10', 'mcpd_phase_slope': '6.62', 'mcpd_rssi_openspace': '8.91', 'mcpd_best': '4.10'}
+tag_loaction:  (4.33, 1.61)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.385409871788053, 'DD:F8:63:2F:91:E3': 1.0300485425454473, 'FA:25:A4:44:D3:FC': 3.6415655973770398}
+
+
+
+######### Received
+distance: 4.1    |   smooth: 4.1   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '4.09', 'mcpd_ifft': '4.10', 'mcpd_phase_slope': '6.79', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '4.10'}
+tag_loaction:  (4.33, 1.61)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.385409871788053, 'DD:F8:63:2F:91:E3': 1.0300485425454473, 'FA:25:A4:44:D3:FC': 3.6415655973770398}
+
+
+
+######### Received
+distance: 3.81    |   smooth: 3.81   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.92', 'mcpd_ifft': '3.81', 'mcpd_phase_slope': '6.71', 'mcpd_rssi_openspace': '4.47', 'mcpd_best': '3.81'}
+tag_loaction:  (3.87, 1.53)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.9185270257443223, 'DD:F8:63:2F:91:E3': 0.6463745044476925, 'FA:25:A4:44:D3:FC': 3.577401291440478}
+
+
+
+######### Received
+distance: 3.81    |   smooth: 3.81   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.92', 'mcpd_ifft': '3.81', 'mcpd_phase_slope': '6.64', 'mcpd_rssi_openspace': '5.62', 'mcpd_best': '3.81'}
+tag_loaction:  (3.87, 1.53)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.9185270257443223, 'DD:F8:63:2F:91:E3': 0.6463745044476925, 'FA:25:A4:44:D3:FC': 3.577401291440478}
+
+
+
+######### Received
+distance: 3.81    |   smooth: 3.81   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.85', 'mcpd_ifft': '3.81', 'mcpd_phase_slope': '6.61', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '3.81'}
+tag_loaction:  (3.87, 1.53)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.81, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.9185270257443223, 'DD:F8:63:2F:91:E3': 0.6463745044476925, 'FA:25:A4:44:D3:FC': 3.577401291440478}
+
+
+
+######### Received
+distance: 4.39    |   smooth: 4.39   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '4.39', 'mcpd_phase_slope': '1.36', 'mcpd_rssi_openspace': '5.62', 'mcpd_best': '4.39'}
+tag_loaction:  (4.82, 1.7)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.39, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.883606571217018, 'DD:F8:63:2F:91:E3': 1.494121815649581, 'FA:25:A4:44:D3:FC': 3.7686071697644477}
+
+
+
+######### Received
+distance: 4.1    |   smooth: 4.1   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.87', 'mcpd_ifft': '4.10', 'mcpd_phase_slope': '5.95', 'mcpd_rssi_openspace': '4.47', 'mcpd_best': '4.10'}
+tag_loaction:  (4.33, 1.61)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.1, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.385409871788053, 'DD:F8:63:2F:91:E3': 1.0300485425454473, 'FA:25:A4:44:D3:FC': 3.6415655973770398}
+
+
+
+######### Received
+distance: 4.75    |   smooth: 4.75   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '4.62', 'mcpd_ifft': '4.75', 'mcpd_phase_slope': '6.86', 'mcpd_rssi_openspace': '4.47', 'mcpd_best': '4.75'}
+tag_loaction:  (5.48, 1.83)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.75, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 4.55623748283603, 'DD:F8:63:2F:91:E3': 2.1469280379183653, 'FA:25:A4:44:D3:FC': 4.024835400361113}
+
+
+
+######### Received
+distance: 4.98    |   smooth: 4.98   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '4.98', 'mcpd_ifft': '4.98', 'mcpd_phase_slope': '7.28', 'mcpd_rssi_openspace': '3.55', 'mcpd_best': '4.98'}
+tag_loaction:  (5.93, 1.91)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.98, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 5.01328235789687, 'DD:F8:63:2F:91:E3': 2.594802497301095, 'FA:25:A4:44:D3:FC': 4.258286040180955}
+
+
+
+######### Received
+distance: 6.15    |   smooth: 6.15   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '8.32', 'mcpd_ifft': '6.15', 'mcpd_phase_slope': '9.80', 'mcpd_rssi_openspace': '7.94', 'mcpd_best': '6.15'}
+tag_loaction:  (8.53, 2.4)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 6.15, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 7.659040409868588, 'DD:F8:63:2F:91:E3': 5.221197180723976, 'FA:25:A4:44:D3:FC': 6.110720088500208}
+
+
+
+######### Received
+distance: 5.63    |   smooth: 5.63   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '5.12', 'mcpd_ifft': '5.63', 'mcpd_phase_slope': '9.22', 'mcpd_rssi_openspace': '7.94', 'mcpd_best': '5.63'}
+tag_loaction:  (7.31, 2.17)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 5.63, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 6.41755405119427, 'DD:F8:63:2F:91:E3': 3.985599076675926, 'FA:25:A4:44:D3:FC': 5.156064390598705}
+
+
+
+######### Received
+distance: 5.98    |   smooth: 5.98   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '5.98', 'mcpd_phase_slope': '9.14', 'mcpd_rssi_openspace': '10.00', 'mcpd_best': '5.98'}
+tag_loaction:  (8.12, 2.32)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 5.98, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 7.241325845451231, 'DD:F8:63:2F:91:E3': 4.804872526925141, 'FA:25:A4:44:D3:FC': 5.778996452672383}
+
+
+
+######### Received
+distance: 8.5    |   smooth: 8.5   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '4.89', 'mcpd_ifft': '8.50', 'mcpd_phase_slope': '10.11', 'mcpd_rssi_openspace': '8.91', 'mcpd_best': '8.50'}
+tag_loaction:  (15.42, 3.69)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 8.5, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 14.668759320406071, 'DD:F8:63:2F:91:E3': 12.219758590086794, 'FA:25:A4:44:D3:FC': 12.488895067218717}
+
+
+
+######### Received
+distance: 4.49    |   smooth: 4.49   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '6.56', 'mcpd_ifft': '4.49', 'mcpd_phase_slope': '8.40', 'mcpd_rssi_openspace': '22.39', 'mcpd_best': '4.49'}
+tag_loaction:  (5.0, 1.74)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.49, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 4.067874137679286, 'DD:F8:63:2F:91:E3': 1.672602762164406, 'FA:25:A4:44:D3:FC': 3.8246045547219647}
+
+
+
+######### Received
+distance: 6.35    |   smooth: 6.35   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '4.27', 'mcpd_ifft': '6.35', 'mcpd_phase_slope': '8.61', 'mcpd_rssi_openspace': '19.95', 'mcpd_best': '6.35'}
+tag_loaction:  (9.03, 2.49)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 6.35, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 8.167068017348699, 'DD:F8:63:2F:91:E3': 5.727215728432097, 'FA:25:A4:44:D3:FC': 6.531538869209919}
+
+
+
+######### Received
+distance: 4.23    |   smooth: 4.23   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '4.23', 'mcpd_phase_slope': '0.85', 'mcpd_rssi_openspace': '22.39', 'mcpd_best': '4.23'}
+tag_loaction:  (4.55, 1.65)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.23, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.6090164865237173, 'DD:F8:63:2F:91:E3': 1.2349089035228467, 'FA:25:A4:44:D3:FC': 3.69120576505835}
+
+
+
+######### Received
+distance: 5.87    |   smooth: 5.87   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '4.11', 'mcpd_ifft': '5.87', 'mcpd_phase_slope': '9.04', 'mcpd_rssi_openspace': '17.78', 'mcpd_best': '5.87'}
+tag_loaction:  (7.86, 2.27)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 5.87, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 6.9765679241300305, 'DD:F8:63:2F:91:E3': 4.541200281863816, 'FA:25:A4:44:D3:FC': 5.5742712528186145}
+
+
+
+######### Received
+distance: 6.07    |   smooth: 6.07   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.42', 'mcpd_ifft': '6.07', 'mcpd_phase_slope': '9.19', 'mcpd_rssi_openspace': '17.78', 'mcpd_best': '6.07'}
+tag_loaction:  (8.34, 2.36)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 6.07, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 7.464931345966954, 'DD:F8:63:2F:91:E3': 5.02744467895968, 'FA:25:A4:44:D3:FC': 5.956945526022544}
+
+
+
+######### Received
+distance: 6.28    |   smooth: 6.28   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '4.08', 'mcpd_ifft': '6.28', 'mcpd_phase_slope': '9.09', 'mcpd_rssi_openspace': '19.95', 'mcpd_best': '6.28'}
+tag_loaction:  (8.86, 2.46)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 6.28, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 7.994448073507012, 'DD:F8:63:2F:91:E3': 5.555285771227255, 'FA:25:A4:44:D3:FC': 6.386798885200628}
+
+
+
+######### Received
+distance: 6.07    |   smooth: 6.07   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '9.19', 'mcpd_ifft': '6.07', 'mcpd_phase_slope': '8.93', 'mcpd_rssi_openspace': '19.95', 'mcpd_best': '6.07'}
+tag_loaction:  (8.34, 2.36)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 6.07, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 7.464931345966954, 'DD:F8:63:2F:91:E3': 5.02744467895968, 'FA:25:A4:44:D3:FC': 5.956945526022544}
+
+
+
+######### Received
+distance: 6.34    |   smooth: 6.34   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '4.15', 'mcpd_ifft': '6.34', 'mcpd_phase_slope': '8.87', 'mcpd_rssi_openspace': '15.85', 'mcpd_best': '6.34'}
+tag_loaction:  (9.01, 2.49)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 6.34, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 8.147404494684181, 'DD:F8:63:2F:91:E3': 5.707906796716288, 'FA:25:A4:44:D3:FC': 6.5130791489125945}
+
+
+
+######### Received
+distance: 6.02    |   smooth: 6.02   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '9.02', 'mcpd_ifft': '6.02', 'mcpd_phase_slope': '8.81', 'mcpd_rssi_openspace': '15.85', 'mcpd_best': '6.02'}
+tag_loaction:  (8.22, 2.34)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 6.02, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 7.343296262578543, 'DD:F8:63:2F:91:E3': 4.906526266107215, 'FA:25:A4:44:D3:FC': 5.858668790774915}
+
+
+
+######### Received
+distance: 6.27    |   smooth: 6.27   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '4.25', 'mcpd_ifft': '6.27', 'mcpd_phase_slope': '8.91', 'mcpd_rssi_openspace': '14.13', 'mcpd_best': '6.27'}
+tag_loaction:  (8.83, 2.46)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 6.27, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 7.964954488256666, 'DD:F8:63:2F:91:E3': 5.526345989892417, 'FA:25:A4:44:D3:FC': 6.359284550953825}
+
+
+
+######### Received
+distance: 6.36    |   smooth: 6.36   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '9.43', 'mcpd_ifft': '6.36', 'mcpd_phase_slope': '8.80', 'mcpd_rssi_openspace': '19.95', 'mcpd_best': '6.36'}
+tag_loaction:  (9.06, 2.5)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 6.36, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 8.19839008586442, 'DD:F8:63:2F:91:E3': 5.758784593992035, 'FA:25:A4:44:D3:FC': 6.555425234109531}
+
+
+
+######### Received
+distance: 6.33    |   smooth: 6.33   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '9.40', 'mcpd_ifft': '6.33', 'mcpd_phase_slope': '8.90', 'mcpd_rssi_openspace': '14.13', 'mcpd_best': '6.33'}
+tag_loaction:  (8.98, 2.48)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 6.33, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 8.11608279898622, 'DD:F8:63:2F:91:E3': 5.676336846946278, 'FA:25:A4:44:D3:FC': 6.489283473543131}
+
+
+
+######### Received
+distance: 3.22    |   smooth: 3.22   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '3.22', 'mcpd_phase_slope': '9.27', 'mcpd_rssi_openspace': '17.78', 'mcpd_best': '3.22'}
+tag_loaction:  (3.04, 1.37)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.22, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.0732824216685963, 'DD:F8:63:2F:91:E3': 0.5903388857258177, 'FA:25:A4:44:D3:FC': 3.6302203789852756}
+
+
+
+######### Received
+distance: 6.08    |   smooth: 6.08   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '3.58', 'mcpd_ifft': '6.08', 'mcpd_phase_slope': '9.01', 'mcpd_rssi_openspace': '28.18', 'mcpd_best': '6.08'}
+tag_loaction:  (8.36, 2.37)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 6.08, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 7.48642104079112, 'DD:F8:63:2F:91:E3': 5.049405905648703, 'FA:25:A4:44:D3:FC': 5.970468993303625}
+
+
+
+######### Received
+distance: 4.09    |   smooth: 4.09   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '8.46', 'mcpd_ifft': '4.09', 'mcpd_phase_slope': '8.10', 'mcpd_rssi_openspace': '15.85', 'mcpd_best': '4.09'}
+tag_loaction:  (4.32, 1.61)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.09, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.375574025258519, 'DD:F8:63:2F:91:E3': 1.0220078277586726, 'FA:25:A4:44:D3:FC': 3.6379252328765634}
+
+
+
+######### Received
+distance: 6.11    |   smooth: 6.11   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '4.79', 'mcpd_ifft': '6.11', 'mcpd_phase_slope': '8.78', 'mcpd_rssi_openspace': '22.39', 'mcpd_best': '6.11'}
+tag_loaction:  (8.44, 2.38)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 6.11, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 7.566901611624139, 'DD:F8:63:2F:91:E3': 5.129132480254335, 'FA:25:A4:44:D3:FC': 6.038046041560134}
+
+
+
+######### Received
+distance: 6.36    |   smooth: 6.36   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '6.18', 'mcpd_ifft': '6.36', 'mcpd_phase_slope': '8.36', 'mcpd_rssi_openspace': '17.78', 'mcpd_best': '6.36'}
+tag_loaction:  (9.06, 2.5)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 6.36, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 8.19839008586442, 'DD:F8:63:2F:91:E3': 5.758784593992035, 'FA:25:A4:44:D3:FC': 6.555425234109531}
+
+
+
+######### Received
+distance: 5.27    |   smooth: 5.27   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '5.18', 'mcpd_ifft': '5.27', 'mcpd_phase_slope': '8.80', 'mcpd_rssi_openspace': '17.78', 'mcpd_best': '5.27'}
+tag_loaction:  (6.52, 2.02)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 5.27, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 5.613448138176747, 'DD:F8:63:2F:91:E3': 3.1876009787926716, 'FA:25:A4:44:D3:FC': 4.61202775360253}
+
+
+
+######### Received
+distance: 5.32    |   smooth: 5.32   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '5.02', 'mcpd_ifft': '5.32', 'mcpd_phase_slope': '7.51', 'mcpd_rssi_openspace': '14.13', 'mcpd_best': '5.32'}
+tag_loaction:  (6.63, 2.04)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 5.32, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 5.725251086197006, 'DD:F8:63:2F:91:E3': 3.2982571155081284, 'FA:25:A4:44:D3:FC': 4.6838552496848145}
+
+
+
+######### Received
+distance: 5.61    |   smooth: 5.61   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '5.31', 'mcpd_ifft': '5.61', 'mcpd_phase_slope': '7.84', 'mcpd_rssi_openspace': '17.78', 'mcpd_best': '5.61'}
+tag_loaction:  (7.26, 2.16)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 5.61, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 6.366568934677453, 'DD:F8:63:2F:91:E3': 3.9348697564214246, 'FA:25:A4:44:D3:FC': 5.119882811158864}
+
+
+
+######### Received
+distance: 5.09    |   smooth: 5.09   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '4.83', 'mcpd_ifft': '5.09', 'mcpd_phase_slope': '7.42', 'mcpd_rssi_openspace': '15.85', 'mcpd_best': '5.09'}
+tag_loaction:  (6.15, 1.95)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 5.09, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 5.236888389110465, 'DD:F8:63:2F:91:E3': 2.81513765205185, 'FA:25:A4:44:D3:FC': 4.384632253678751}
+
+
+
+######### Received
+distance: 5.26    |   smooth: 5.26   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '5.02', 'mcpd_ifft': '5.26', 'mcpd_phase_slope': '7.65', 'mcpd_rssi_openspace': '15.85', 'mcpd_best': '5.26'}
+tag_loaction:  (6.5, 2.02)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 5.26, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 5.593782262476794, 'DD:F8:63:2F:91:E3': 3.1686590223626143, 'FA:25:A4:44:D3:FC': 4.596781482733327}
+
+
+
+######### Received
+distance: 5.12    |   smooth: 5.12   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '4.88', 'mcpd_ifft': '5.12', 'mcpd_phase_slope': '7.62', 'mcpd_rssi_openspace': '15.85', 'mcpd_best': '5.12'}
+tag_loaction:  (6.21, 1.96)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 5.12, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 5.297707051168458, 'DD:F8:63:2F:91:E3': 2.8750130434486727, 'FA:25:A4:44:D3:FC': 4.421051911027511}
+
+
+
+######### Received
+distance: 5.03    |   smooth: 5.03   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '5.03', 'mcpd_phase_slope': '8.60', 'mcpd_rssi_openspace': '19.95', 'mcpd_best': '5.03'}
+tag_loaction:  (6.03, 1.93)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 5.03, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 5.115251704461864, 'DD:F8:63:2F:91:E3': 2.6955147931332153, 'FA:25:A4:44:D3:FC': 4.313444099556641}
+
+
+
+######### Received
+distance: 6.11    |   smooth: 6.11   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '8.25', 'mcpd_ifft': '6.11', 'mcpd_phase_slope': '10.69', 'mcpd_rssi_openspace': '14.13', 'mcpd_best': '6.11'}
+tag_loaction:  (8.44, 2.38)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 6.11, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 7.566901611624139, 'DD:F8:63:2F:91:E3': 5.129132480254335, 'FA:25:A4:44:D3:FC': 6.038046041560134}
+
+
+
+######### Received
+distance: 5.93    |   smooth: 5.93   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '8.68', 'mcpd_ifft': '5.93', 'mcpd_phase_slope': '10.60', 'mcpd_rssi_openspace': '17.78', 'mcpd_best': '5.93'}
+tag_loaction:  (8.0, 2.3)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 5.93, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 7.119691004531025, 'DD:F8:63:2F:91:E3': 4.684015371452148, 'FA:25:A4:44:D3:FC': 5.682429058070149}
+
+
+
+######### Received
+distance: 6.74    |   smooth: 6.74   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '6.91', 'mcpd_ifft': '6.74', 'mcpd_phase_slope': '10.84', 'mcpd_rssi_openspace': '5.62', 'mcpd_best': '6.74'}
+tag_loaction:  (10.06, 2.68)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 6.74, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 9.214445181344344, 'DD:F8:63:2F:91:E3': 6.771705841219036, 'FA:25:A4:44:D3:FC': 7.431419783594519}
+
+
+
+######### Received
+distance: 8.32    |   smooth: 8.32   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '7.01', 'mcpd_ifft': '8.32', 'mcpd_phase_slope': '12.34', 'mcpd_rssi_openspace': '8.91', 'mcpd_best': '8.32'}
+tag_loaction:  (14.81, 3.58)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 8.32, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 14.048932343776164, 'DD:F8:63:2F:91:E3': 11.600538780591185, 'FA:25:A4:44:D3:FC': 11.895062000679106}
+
+
+
+######### Received
+distance: 3.73    |   smooth: 3.73   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '8.82', 'mcpd_ifft': '3.73', 'mcpd_phase_slope': '9.93', 'mcpd_rssi_openspace': '5.01', 'mcpd_best': '3.73'}
+tag_loaction:  (3.75, 1.5)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 3.73, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.7950849718747373, 'DD:F8:63:2F:91:E3': 0.5590169943749475, 'FA:25:A4:44:D3:FC': 3.5794552658190883}
+Error: Extra data: line 1 column 188 (char 187)
+Error: Expecting value: line 1 column 1 (char 0)
+Error: Expecting value: line 1 column 1 (char 0)
+Error: Expecting value: line 1 column 1 (char 0)
+Error: Expecting value: line 1 column 1 (char 0)
+Error: Expecting value: line 1 column 1 (char 0)
+Error: Expecting value: line 1 column 1 (char 0)
+Error: Expecting value: line 1 column 1 (char 0)
+Error: Expecting value: line 1 column 1 (char 0)
+Error: Expecting value: line 1 column 1 (char 0)
+Error: Expecting value: line 1 column 1 (char 0)
+Error: Expecting value: line 1 column 1 (char 0)
+Error: Expecting value: line 1 column 1 (char 0)
+
+
+
+######### Received
+distance: 4.69    |   smooth: 4.69   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '4.90', 'mcpd_ifft': '4.69', 'mcpd_phase_slope': '6.37', 'mcpd_rssi_openspace': '8.91', 'mcpd_best': '4.69'}
+tag_loaction:  (5.37, 1.81)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.69, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 4.4444347222115885, 'DD:F8:63:2F:91:E3': 2.0378910667648555, 'FA:25:A4:44:D3:FC': 3.9740407647632403}
+
+
+
+######### Received
+distance: 4.39    |   smooth: 4.39   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '5.02', 'mcpd_ifft': '4.39', 'mcpd_phase_slope': '6.86', 'mcpd_rssi_openspace': '11.22', 'mcpd_best': '4.39'}
+tag_loaction:  (4.82, 1.7)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.39, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.883606571217018, 'DD:F8:63:2F:91:E3': 1.494121815649581, 'FA:25:A4:44:D3:FC': 3.7686071697644477}
+
+
+
+######### Received
+distance: 4.69    |   smooth: 4.69   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '4.69', 'mcpd_phase_slope': '7.74', 'mcpd_rssi_openspace': '12.59', 'mcpd_best': '4.69'}
+tag_loaction:  (5.37, 1.81)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.69, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 3.79}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 4.4444347222115885, 'DD:F8:63:2F:91:E3': 2.0378910667648555, 'FA:25:A4:44:D3:FC': 3.9740407647632403}
+
+
+
+######### Received
+distance: 1.76    |   smooth: 1.76   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '1.76', 'mcpd_phase_slope': '4.08', 'mcpd_rssi_openspace': '11.22', 'mcpd_best': '1.76'}
+tag_loaction:  (5.37, 2.51)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.69, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 1.76}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 4.623526792395606, 'DD:F8:63:2F:91:E3': 2.4035390573069537, 'FA:25:A4:44:D3:FC': 3.4375863625514924}
+
+
+
+######### Received
+distance: 2.64    |   smooth: 2.64   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '5.31', 'mcpd_ifft': '2.64', 'mcpd_phase_slope': '7.03', 'mcpd_rssi_openspace': '14.13', 'mcpd_best': '2.64'}
+tag_loaction:  (5.37, 2.27)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.69, 'DD:F8:63:2F:91:E3': 2.53, 'FA:25:A4:44:D3:FC': 2.64}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 4.550802127098035, 'DD:F8:63:2F:91:E3': 2.2604866732630833, 'FA:25:A4:44:D3:FC': 3.615217835760385}
+
+
+
+######### Received
+distance: 3.68    |   smooth: 3.68   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '5.06', 'mcpd_ifft': '3.68', 'mcpd_phase_slope': '7.61', 'mcpd_rssi_openspace': '8.91', 'mcpd_best': '3.68'}
+tag_loaction:  (3.94, 2.45)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.69, 'DD:F8:63:2F:91:E3': 3.68, 'FA:25:A4:44:D3:FC': 2.64}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.27812446377498, 'DD:F8:63:2F:91:E3': 1.5152887513606113, 'FA:25:A4:44:D3:FC': 2.717738030053669}
+
+
+
+######### Received
+distance: 4.69    |   smooth: 4.69   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '4.69', 'mcpd_phase_slope': '7.79', 'mcpd_rssi_openspace': '10.00', 'mcpd_best': '4.69'}
+tag_loaction:  (3.94, 2.45)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.69, 'DD:F8:63:2F:91:E3': 3.68, 'FA:25:A4:44:D3:FC': 2.64}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.27812446377498, 'DD:F8:63:2F:91:E3': 1.5152887513606113, 'FA:25:A4:44:D3:FC': 2.717738030053669}
+
+
+
+######### Received
+distance: 4.98    |   smooth: 4.98   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '5.72', 'mcpd_ifft': '4.98', 'mcpd_phase_slope': '6.04', 'mcpd_rssi_openspace': '12.59', 'mcpd_best': '4.98'}
+tag_loaction:  (4.5, 2.55)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.98, 'DD:F8:63:2F:91:E3': 3.68, 'FA:25:A4:44:D3:FC': 2.64}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.8278584090846413, 'DD:F8:63:2F:91:E3': 1.8445866745696715, 'FA:25:A4:44:D3:FC': 2.8727164844446453}
+
+
+
+######### Received
+distance: 2.57    |   smooth: 2.57   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '2.42', 'mcpd_ifft': '2.57', 'mcpd_phase_slope': '4.95', 'mcpd_rssi_openspace': '14.13', 'mcpd_best': '2.57'}
+tag_loaction:  (4.5, 2.57)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.98, 'DD:F8:63:2F:91:E3': 3.68, 'FA:25:A4:44:D3:FC': 2.57}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.8360005213763984, 'DD:F8:63:2F:91:E3': 1.8614241859393574, 'FA:25:A4:44:D3:FC': 2.8556785533389437}
+
+
+
+######### Received
+distance: 2.48    |   smooth: 2.48   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '2.37', 'mcpd_ifft': '2.48', 'mcpd_phase_slope': '5.00', 'mcpd_rssi_openspace': '14.13', 'mcpd_best': '2.48'}
+tag_loaction:  (4.5, 2.6)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.98, 'DD:F8:63:2F:91:E3': 3.68, 'FA:25:A4:44:D3:FC': 2.48}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.8483762809787714, 'DD:F8:63:2F:91:E3': 1.886796226411321, 'FA:25:A4:44:D3:FC': 2.8301943396169813}
+
+
+
+######### Received
+distance: 2.44    |   smooth: 2.44   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '2.38', 'mcpd_ifft': '2.44', 'mcpd_phase_slope': '5.10', 'mcpd_rssi_openspace': '15.85', 'mcpd_best': '2.44'}
+tag_loaction:  (4.5, 2.62)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.98, 'DD:F8:63:2F:91:E3': 3.68, 'FA:25:A4:44:D3:FC': 2.44}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.856734369904155, 'DD:F8:63:2F:91:E3': 1.9037857022259623, 'FA:25:A4:44:D3:FC': 2.813254343282882}
+
+
+
+######### Received
+distance: 4.98    |   smooth: 4.98   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '4.98', 'mcpd_phase_slope': '7.37', 'mcpd_rssi_openspace': '10.00', 'mcpd_best': '4.98'}
+tag_loaction:  (4.5, 2.62)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.98, 'DD:F8:63:2F:91:E3': 3.68, 'FA:25:A4:44:D3:FC': 2.44}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.856734369904155, 'DD:F8:63:2F:91:E3': 1.9037857022259623, 'FA:25:A4:44:D3:FC': 2.813254343282882}
+
+
+
+######### Received
+distance: 4.69    |   smooth: 4.69   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '5.45', 'mcpd_ifft': '4.69', 'mcpd_phase_slope': '7.42', 'mcpd_rssi_openspace': '10.00', 'mcpd_best': '4.69'}
+tag_loaction:  (3.94, 2.51)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.69, 'DD:F8:63:2F:91:E3': 3.68, 'FA:25:A4:44:D3:FC': 2.44}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.3051021164254513, 'DD:F8:63:2F:91:E3': 1.5728000508646989, 'FA:25:A4:44:D3:FC': 2.6615221208924793}
+
+
+
+######### Received
+distance: 4.69    |   smooth: 4.69   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '5.44', 'mcpd_ifft': '4.69', 'mcpd_phase_slope': '7.49', 'mcpd_rssi_openspace': '12.59', 'mcpd_best': '4.69'}
+tag_loaction:  (3.94, 2.51)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.69, 'DD:F8:63:2F:91:E3': 3.68, 'FA:25:A4:44:D3:FC': 2.44}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.3051021164254513, 'DD:F8:63:2F:91:E3': 1.5728000508646989, 'FA:25:A4:44:D3:FC': 2.6615221208924793}
+
+
+
+######### Received
+distance: 1.88    |   smooth: 1.88   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '2.29', 'mcpd_ifft': '1.88', 'mcpd_phase_slope': '6.91', 'mcpd_rssi_openspace': '25.12', 'mcpd_best': '1.88'}
+tag_loaction:  (3.94, 2.66)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.69, 'DD:F8:63:2F:91:E3': 3.68, 'FA:25:A4:44:D3:FC': 1.88}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.3762701313727845, 'DD:F8:63:2F:91:E3': 1.7173234989366448, 'FA:25:A4:44:D3:FC': 2.521745427278495}
+
+
+
+######### Received
+distance: 4.69    |   smooth: 4.69   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '4.69', 'mcpd_phase_slope': '10.40', 'mcpd_rssi_openspace': '11.22', 'mcpd_best': '4.69'}
+tag_loaction:  (3.94, 2.66)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.69, 'DD:F8:63:2F:91:E3': 3.68, 'FA:25:A4:44:D3:FC': 1.88}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.3762701313727845, 'DD:F8:63:2F:91:E3': 1.7173234989366448, 'FA:25:A4:44:D3:FC': 2.521745427278495}
+
+
+
+######### Received
+distance: 4.1    |   smooth: 4.1   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '4.33', 'mcpd_ifft': '4.10', 'mcpd_phase_slope': '6.92', 'mcpd_rssi_openspace': '8.91', 'mcpd_best': '4.10'}
+tag_loaction:  (3.29, 2.74)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.69, 'DD:F8:63:2F:91:E3': 4.1, 'FA:25:A4:44:D3:FC': 1.88}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.876056327682057, 'DD:F8:63:2F:91:E3': 1.7526266002774238, 'FA:25:A4:44:D3:FC': 2.2785302280198083}
+
+
+
+######### Received
+distance: 5.27    |   smooth: 5.27   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '5.26', 'mcpd_ifft': '5.27', 'mcpd_phase_slope': '7.89', 'mcpd_rssi_openspace': '11.22', 'mcpd_best': '5.27'}
+tag_loaction:  (4.44, 2.96)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 5.27, 'DD:F8:63:2F:91:E3': 4.1, 'FA:25:A4:44:D3:FC': 1.88}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.9591918367262786, 'DD:F8:63:2F:91:E3': 2.17375251581223, 'FA:25:A4:44:D3:FC': 2.4970382456021776}
+
+
+
+######### Received
+distance: 4.98    |   smooth: 4.98   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '5.56', 'mcpd_ifft': '4.98', 'mcpd_phase_slope': '7.84', 'mcpd_rssi_openspace': '12.59', 'mcpd_best': '4.98'}
+tag_loaction:  (3.85, 2.85)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.98, 'DD:F8:63:2F:91:E3': 4.1, 'FA:25:A4:44:D3:FC': 1.88}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.3977934016064015, 'DD:F8:63:2F:91:E3': 1.8828170383762732, 'FA:25:A4:44:D3:FC': 2.3119256043393785}
+
+
+
+######### Received
+distance: 4.11    |   smooth: 4.11   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '4.71', 'mcpd_ifft': '4.11', 'mcpd_phase_slope': '6.99', 'mcpd_rssi_openspace': '8.91', 'mcpd_best': '4.11'}
+tag_loaction:  (3.83, 2.85)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.98, 'DD:F8:63:2F:91:E3': 4.11, 'FA:25:A4:44:D3:FC': 1.88}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.3810353443878696, 'DD:F8:63:2F:91:E3': 1.879201958279099, 'FA:25:A4:44:D3:FC': 2.304647478466067}
+
+
+
+######### Received
+distance: 4.69    |   smooth: 4.69   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '5.35', 'mcpd_ifft': '4.69', 'mcpd_phase_slope': '7.54', 'mcpd_rssi_openspace': '12.59', 'mcpd_best': '4.69'}
+tag_loaction:  (3.27, 2.75)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.69, 'DD:F8:63:2F:91:E3': 4.11, 'FA:25:A4:44:D3:FC': 1.88}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.866251907980176, 'DD:F8:63:2F:91:E3': 1.7650495743746124, 'FA:25:A4:44:D3:FC': 2.2661420961625507}
+
+
+
+######### Received
+distance: 4.98    |   smooth: 4.98   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '5.21', 'mcpd_ifft': '4.98', 'mcpd_phase_slope': '7.79', 'mcpd_rssi_openspace': '22.39', 'mcpd_best': '4.98'}
+tag_loaction:  (3.83, 2.85)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.98, 'DD:F8:63:2F:91:E3': 4.11, 'FA:25:A4:44:D3:FC': 1.88}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.3810353443878696, 'DD:F8:63:2F:91:E3': 1.879201958279099, 'FA:25:A4:44:D3:FC': 2.304647478466067}
+
+
+
+######### Received
+distance: 4.69    |   smooth: 4.69   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '5.56', 'mcpd_ifft': '4.69', 'mcpd_phase_slope': '7.93', 'mcpd_rssi_openspace': '11.22', 'mcpd_best': '4.69'}
+tag_loaction:  (3.27, 2.75)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.69, 'DD:F8:63:2F:91:E3': 4.11, 'FA:25:A4:44:D3:FC': 1.88}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.866251907980176, 'DD:F8:63:2F:91:E3': 1.7650495743746124, 'FA:25:A4:44:D3:FC': 2.2661420961625507}
+
+
+
+######### Received
+distance: 1.88    |   smooth: 1.88   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '2.46', 'mcpd_ifft': '1.88', 'mcpd_phase_slope': '6.11', 'mcpd_rssi_openspace': '25.12', 'mcpd_best': '1.88'}
+tag_loaction:  (3.27, 2.75)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.69, 'DD:F8:63:2F:91:E3': 4.11, 'FA:25:A4:44:D3:FC': 1.88}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.866251907980176, 'DD:F8:63:2F:91:E3': 1.7650495743746124, 'FA:25:A4:44:D3:FC': 2.2661420961625507}
+
+
+
+######### Received
+distance: 4.98    |   smooth: 4.98   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '4.98', 'mcpd_phase_slope': '9.06', 'mcpd_rssi_openspace': '11.22', 'mcpd_best': '4.98'}
+tag_loaction:  (3.83, 2.85)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.98, 'DD:F8:63:2F:91:E3': 4.11, 'FA:25:A4:44:D3:FC': 1.88}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.3810353443878696, 'DD:F8:63:2F:91:E3': 1.879201958279099, 'FA:25:A4:44:D3:FC': 2.304647478466067}
+
+
+
+######### Received
+distance: 2.38    |   smooth: 2.38   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '2.29', 'mcpd_ifft': '2.38', 'mcpd_phase_slope': '5.37', 'mcpd_rssi_openspace': '22.39', 'mcpd_best': '2.38'}
+tag_loaction:  (3.83, 2.72)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.98, 'DD:F8:63:2F:91:E3': 4.11, 'FA:25:A4:44:D3:FC': 2.38}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.311691410744667, 'DD:F8:63:2F:91:E3': 1.7513708916160509, 'FA:25:A4:44:D3:FC': 2.426375898330677}
+
+
+
+######### Received
+distance: 2.58    |   smooth: 2.58   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '2.35', 'mcpd_ifft': '2.58', 'mcpd_phase_slope': '6.41', 'mcpd_rssi_openspace': '22.39', 'mcpd_best': '2.58'}
+tag_loaction:  (3.83, 2.66)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.98, 'DD:F8:63:2F:91:E3': 4.11, 'FA:25:A4:44:D3:FC': 2.58}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.2809297462761986, 'DD:F8:63:2F:91:E3': 1.6924833824885845, 'FA:25:A4:44:D3:FC': 2.4828411145298848}
+
+
+
+######### Received
+distance: 2.68    |   smooth: 2.68   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '2.43', 'mcpd_ifft': '2.68', 'mcpd_phase_slope': '6.29', 'mcpd_rssi_openspace': '14.13', 'mcpd_best': '2.68'}
+tag_loaction:  (3.83, 2.62)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.98, 'DD:F8:63:2F:91:E3': 4.11, 'FA:25:A4:44:D3:FC': 2.68}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.260874115938854, 'DD:F8:63:2F:91:E3': 1.6532694880145828, 'FA:25:A4:44:D3:FC': 2.5205753311496166}
+
+
+
+######### Received
+distance: 4.98    |   smooth: 4.98   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '2.39', 'mcpd_ifft': '4.98', 'mcpd_phase_slope': '7.06', 'mcpd_rssi_openspace': '10.00', 'mcpd_best': '4.98'}
+tag_loaction:  (3.83, 2.62)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.98, 'DD:F8:63:2F:91:E3': 4.11, 'FA:25:A4:44:D3:FC': 2.68}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.260874115938854, 'DD:F8:63:2F:91:E3': 1.6532694880145828, 'FA:25:A4:44:D3:FC': 2.5205753311496166}
+
+
+
+######### Received
+distance: 4.69    |   smooth: 4.69   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '4.80', 'mcpd_ifft': '4.69', 'mcpd_phase_slope': '8.53', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '4.69'}
+tag_loaction:  (2.81, 2.75)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.98, 'DD:F8:63:2F:91:E3': 4.69, 'FA:25:A4:44:D3:FC': 2.68}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.5176576415390555, 'DD:F8:63:2F:91:E3': 1.8811166896287959, 'FA:25:A4:44:D3:FC': 2.2580079716422614}
+
+
+
+######### Received
+distance: 3.1    |   smooth: 3.1   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '3.07', 'mcpd_ifft': '3.10', 'mcpd_phase_slope': '4.78', 'mcpd_rssi_openspace': '12.59', 'mcpd_best': '3.10'}
+tag_loaction:  (2.81, 2.6)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.98, 'DD:F8:63:2F:91:E3': 4.69, 'FA:25:A4:44:D3:FC': 3.1}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.415802144216285, 'DD:F8:63:2F:91:E3': 1.7424408167854655, 'FA:25:A4:44:D3:FC': 2.4075090861718467}
+
+
+
+######### Received
+distance: 5.57    |   smooth: 5.57   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '5.11', 'mcpd_ifft': '5.57', 'mcpd_phase_slope': '8.00', 'mcpd_rssi_openspace': '6.31', 'mcpd_best': '5.57'}
+tag_loaction:  (4.06, 2.83)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 5.57, 'DD:F8:63:2F:91:E3': 4.69, 'FA:25:A4:44:D3:FC': 3.1}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.565459297201414, 'DD:F8:63:2F:91:E3': 1.9137659209004638, 'FA:25:A4:44:D3:FC': 2.4150569351466644}
+
+
+
+######### Received
+distance: 4.69    |   smooth: 4.69   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '5.28', 'mcpd_ifft': '4.69', 'mcpd_phase_slope': '8.42', 'mcpd_rssi_openspace': '11.22', 'mcpd_best': '4.69'}
+tag_loaction:  (2.25, 2.49)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.69, 'DD:F8:63:2F:91:E3': 4.69, 'FA:25:A4:44:D3:FC': 3.1}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 1.9448907424325925, 'DD:F8:63:2F:91:E3': 1.9448907424325925, 'FA:25:A4:44:D3:FC': 2.6196564660275587}
+
+
+
+######### Received
+distance: 4.1    |   smooth: 4.1   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '4.30', 'mcpd_ifft': '4.10', 'mcpd_phase_slope': '6.36', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '4.10'}
+tag_loaction:  (3.29, 2.36)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.69, 'DD:F8:63:2F:91:E3': 4.1, 'FA:25:A4:44:D3:FC': 3.1}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.663400082601185, 'DD:F8:63:2F:91:E3': 1.376117727521886, 'FA:25:A4:44:D3:FC': 2.6558802683856064}
+
+
+
+######### Received
+distance: 5.27    |   smooth: 5.27   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': 'nan', 'mcpd_ifft': '5.27', 'mcpd_phase_slope': '7.63', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '5.27'}
+tag_loaction:  (4.44, 2.58)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 5.27, 'DD:F8:63:2F:91:E3': 4.1, 'FA:25:A4:44:D3:FC': 3.1}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.78549864614954, 'DD:F8:63:2F:91:E3': 1.838477631085024, 'FA:25:A4:44:D3:FC': 2.816025568065745}
+
+
+
+######### Received
+distance: 4.1    |   smooth: 4.1   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '6.90', 'mcpd_ifft': '4.10', 'mcpd_phase_slope': '9.64', 'mcpd_rssi_openspace': '6.31', 'mcpd_best': '4.10'}
+tag_loaction:  (4.44, 2.58)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 5.27, 'DD:F8:63:2F:91:E3': 4.1, 'FA:25:A4:44:D3:FC': 3.1}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.78549864614954, 'DD:F8:63:2F:91:E3': 1.838477631085024, 'FA:25:A4:44:D3:FC': 2.816025568065745}
+
+
+
+######### Received
+distance: 6.74    |   smooth: 6.74   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '4.25', 'mcpd_ifft': '6.74', 'mcpd_phase_slope': '9.82', 'mcpd_rssi_openspace': '5.62', 'mcpd_best': '6.74'}
+tag_loaction:  (-1.28, 3.3)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 5.27, 'DD:F8:63:2F:91:E3': 6.74, 'FA:25:A4:44:D3:FC': 3.1}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 3.238579935712565, 'DD:F8:63:2F:91:E3': 5.30456407256996, 'FA:25:A4:44:D3:FC': 4.605257864658612}
+
+
+
+######### Received
+distance: 6.15    |   smooth: 6.15   | Result: {'addr': 'DD:F8:63:2F:91:E3', 'quality': 'ok', 'mcpd_high_precision': '13.07', 'mcpd_ifft': '6.15', 'mcpd_phase_slope': '9.83', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '6.15'}
+tag_loaction:  (0.24, 3.11)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 5.27, 'DD:F8:63:2F:91:E3': 6.15, 'FA:25:A4:44:D3:FC': 3.1}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.2426992665089984, 'DD:F8:63:2F:91:E3': 3.8832589406322104, 'FA:25:A4:44:D3:FC': 3.3451008953393315}
+
+
+
+######### Received
+distance: 5.27    |   smooth: 5.27   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '5.12', 'mcpd_ifft': '5.27', 'mcpd_phase_slope': '7.68', 'mcpd_rssi_openspace': '11.22', 'mcpd_best': '5.27'}
+tag_loaction:  (0.24, 3.11)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 5.27, 'DD:F8:63:2F:91:E3': 6.15, 'FA:25:A4:44:D3:FC': 3.1}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.2426992665089984, 'DD:F8:63:2F:91:E3': 3.8832589406322104, 'FA:25:A4:44:D3:FC': 3.3451008953393315}
+
+
+
+######### Received
+distance: 3.22    |   smooth: 3.22   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '3.49', 'mcpd_ifft': '3.22', 'mcpd_phase_slope': '5.49', 'mcpd_rssi_openspace': '8.91', 'mcpd_best': '3.22'}
+tag_loaction:  (0.24, 3.06)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 5.27, 'DD:F8:63:2F:91:E3': 6.15, 'FA:25:A4:44:D3:FC': 3.22}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.195723115513429, 'DD:F8:63:2F:91:E3': 3.856319488839066, 'FA:25:A4:44:D3:FC': 3.3736034147480938}
+
+
+
+######### Received
+distance: 2.64    |   smooth: 2.64   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '2.91', 'mcpd_ifft': '2.64', 'mcpd_phase_slope': '5.85', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '2.64'}
+tag_loaction:  (0.24, 3.27)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 5.27, 'DD:F8:63:2F:91:E3': 6.15, 'FA:25:A4:44:D3:FC': 2.64}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.3938462774372127, 'DD:F8:63:2F:91:E3': 3.9724677468797656, 'FA:25:A4:44:D3:FC': 3.257376244771242}
+
+
+
+######### Received
+distance: 4.98    |   smooth: 4.98   | Result: {'addr': 'CE:45:7C:90:D3:D5', 'quality': 'ok', 'mcpd_high_precision': '5.00', 'mcpd_ifft': '4.98', 'mcpd_phase_slope': '7.95', 'mcpd_rssi_openspace': '7.08', 'mcpd_best': '4.98'}
+tag_loaction:  (-0.35, 3.16)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.98, 'DD:F8:63:2F:91:E3': 6.15, 'FA:25:A4:44:D3:FC': 2.64}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.5471749056552833, 'DD:F8:63:2F:91:E3': 4.414532817864196, 'FA:25:A4:44:D3:FC': 3.822054421381255}
+
+
+
+######### Received
+distance: 3.52    |   smooth: 3.52   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '2.89', 'mcpd_ifft': '3.52', 'mcpd_phase_slope': '5.84', 'mcpd_rssi_openspace': '6.31', 'mcpd_best': '3.52'}
+tag_loaction:  (-0.35, 2.82)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.98, 'DD:F8:63:2F:91:E3': 6.15, 'FA:25:A4:44:D3:FC': 3.52}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.2660317738284252, 'DD:F8:63:2F:91:E3': 4.258509128791437, 'FA:25:A4:44:D3:FC': 3.9968612685456075}
+
+
+
+######### Received
+distance: 3.52    |   smooth: 3.52   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '4.17', 'mcpd_ifft': '3.52', 'mcpd_phase_slope': '5.85', 'mcpd_rssi_openspace': '6.31', 'mcpd_best': '3.52'}
+tag_loaction:  (-0.35, 2.82)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.98, 'DD:F8:63:2F:91:E3': 6.15, 'FA:25:A4:44:D3:FC': 3.52}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.2660317738284252, 'DD:F8:63:2F:91:E3': 4.258509128791437, 'FA:25:A4:44:D3:FC': 3.9968612685456075}
+
+
+
+######### Received
+distance: 3.52    |   smooth: 3.52   | Result: {'addr': 'FA:25:A4:44:D3:FC', 'quality': 'ok', 'mcpd_high_precision': '4.14', 'mcpd_ifft': '3.52', 'mcpd_phase_slope': '5.95', 'mcpd_rssi_openspace': '6.31', 'mcpd_best': '3.52'}
+tag_loaction:  (-0.35, 2.82)
+anchors_location:  {'CE:45:7C:90:D3:D5': (1, 1), 'DD:F8:63:2F:91:E3': (3.5, 1), 'FA:25:A4:44:D3:FC': (3, 5)}
+anchors_distance:  {'CE:45:7C:90:D3:D5': 4.98, 'DD:F8:63:2F:91:E3': 6.15, 'FA:25:A4:44:D3:FC': 3.52}
+anchors_back_calc_distance:  {'CE:45:7C:90:D3:D5': 2.2660317738284252, 'DD:F8:63:2F:91:E3': 4.258509128791437, 'FA:25:A4:44:D3:FC': 3.9968612685456075}
