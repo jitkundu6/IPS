@@ -1,9 +1,23 @@
+"""
+Indoor Positioning System (IPS)
+
+Description: This Python script demonstrates an indoor positioning system
+that uses measured distance data from nRF BLE modules,
+applies trilateration to calculate the location of a mobile tag,
+and provides a Flask API to track the real-time location of
+the mobile tag within a room equipped with fixed anchors.
+
+Author: Subhajit Kundu
+Version: 1.0.0
+Last Update: October 1, 2023
+"""
+
 import json
 import math
 import time
 from datetime import datetime
 import threading
-import serial   # pip install pyserial
+import serial       # pip install pyserial
 from flask import Flask, jsonify    # pip install Flask
 
 
@@ -25,7 +39,7 @@ room_location = {
     "D": (10.5, -12.5),
 }
 
-# Coordinate location of all anchors
+# Coordinate location of all anchors   # TODO: Need to update.
 # anchors_location = {  # For AC Room
 #     anchor1_mac: (1.6, 0),
 #     anchor2_mac: (3.3, 1.3),
@@ -34,13 +48,13 @@ room_location = {
 anchors_location = {    # For Dining Room
     anchor1_mac: (0, 1.3),
     anchor2_mac: (2.45, 2.4),
-    # anchor3_mac: (5.3, 1.0),
     anchor3_mac: (4, 0.1),
+    # anchor3_mac: (5.3, 1.0),
     # anchor3_mac: (3.3, -3.6),
 }
 
 # Parameters for measured distance error correction
-distance_offsets = {
+distance_offsets = {   # TODO: Need to update.
     # anchor1_mac:  0, # -0.8,  # 'CE:45:7C:90:D3:D5'
     # anchor2_mac:  0, # -0.4,  # "FC:03:15:32:DE:54"
     # anchor3_mac:  0, # -0.3,     # 'FA:25:A4:44:D3:FC'
@@ -48,12 +62,12 @@ distance_offsets = {
     anchor2_mac: -0.4,  # "FC:03:15:32:DE:54"
     anchor3_mac: -0.3,  # 'FA:25:A4:44:D3:FC'
 }
-distance_correction_factors = {
+distance_correction_factors = {   # TODO: Need to update.
     anchor1_mac: 1.0,  # 'CE:45:7C:90:D3:D5'
     anchor2_mac: 1.0,  # "FC:03:15:32:DE:54"
     anchor3_mac: 1.0,  # 'FA:25:A4:44:D3:FC'
 }
-max_count = 3
+max_count = 3   # TODO: Need to update.
 
 # Calculated/Measured values
 anchors_distance = {
@@ -78,7 +92,7 @@ tags_location = {
 # Creating Flask app and declaring apis
 app = Flask(__name__)
 
-ipAddress = '127.0.0.5'
+ipAddress = '127.0.0.5'   # TODO: Need to update.
 port = 8000
 index_api = '/'
 room_api = '/coordinate/room'
@@ -299,7 +313,7 @@ def run_ips():
                                 time_flag = True
                                 print("(valid time) _tag_loaction: ", _tag_location)
 
-                            if max_distance_abs_deviation <= 8:
+                            if max_distance_abs_deviation <= 7:   # TODO: Need to update.
                                 distance_flag = True
                                 print("(valid distance) _tag_loaction: ", _tag_location)
 
