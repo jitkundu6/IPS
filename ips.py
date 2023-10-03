@@ -18,7 +18,7 @@ import time
 from datetime import datetime
 import threading
 import serial       # pip install pyserial
-from flask import Flask, jsonify    # pip install Flask
+from flask import Flask, jsonify, request    # pip install Flask
 
 
 # Define the serial port device (e.g., '/dev/ttyUSB0' or '/dev/ttyS0')
@@ -30,13 +30,22 @@ anchor1_mac = 'FC:03:15:32:DE:54'
 anchor2_mac = "CE:45:7C:90:D3:D5"   # 'DD:F8:63:2F:91:E3'
 anchor3_mac = 'FA:25:A4:44:D3:FC'
 tag1_mac = 'DD:F8:63:2F:91:E3'
+mac_map = dict()
 
 # Coordinate location of the room where anchors are placed
 room_location = {
-    "A": (-10.5, -12.5),
-    "B": (-10.5, 12.5),
-    "C": (10.5, 12.5),
-    "D": (10.5, -12.5),
+    "A": (0, 0),
+    "B": (0, 22),
+    "C": (20, 22),
+    "D": (20, 0),
+}
+room_info = {
+    "min_x": 0,
+    "max_x": 0,
+    "min_y": 0,
+    "max_y": 0,
+    "x_length": 0,
+    "y_length": 0,
 }
 
 # Coordinate location of all anchors   # TODO: Need to update.
@@ -95,36 +104,68 @@ app = Flask(__name__)
 ipAddress = '127.0.0.5'   # TODO: Need to update.
 port = 8000
 index_api = '/'
-room_api = '/coordinate/room'
-anchors_api = '/coordinate/anchors'
-tags_api = '/coordinate/tags'
+room_info_api  = '/room'
+room_coordinate_api = '/room/coordinate/'
+anchors_coordinate_api = '/anchors/coordinate/'
+tags_coordinate_api = '/tags/coordinate/'
+anchors_distance_api = '/anchors/distance/'
 
 
-@app.route(index_api, methods=['GET'])
+@app.route(index_api , methods=['GET'])
 def get_index():
+    map = request.args.get('map')
     return jsonify({
-        'room': room_location,
-        'anchors': anchors_location,
-        'tags': tags_location,
+        'room_info': room_info,
+        'room': room_location if not map else map_location(room_location),
+        'anchors': anchors_location if not map else map_location(anchors_location),
+        'tags': tags_location if not map else map_location(tags_location),
+        'anchors_distance': anchors_back_calc_distance if not map else map_location(anchors_back_calc_distance),
         'api': {
             'index': index_api,
-            'room': room_api,
-            'anchors': anchors_api,
-            'tags': tags_api,
+            'room_info': room_info_api ,
+            'room_coordinate': room_coordinate_api,
+            'anchors_coordinate': anchors_coordinate_api,
+            'tags_coordinate': tags_coordinate_api,
+            'anchors_distance': anchors_distance_api,
         }
     })
 
-@app.route(room_api, methods=['GET'])
+@app.route(room_info_api  , methods=['GET'])
 def get_room():
-    return jsonify(room_location)
+    return jsonify(room_info)
 
-@app.route(anchors_api, methods=['GET'])
-def get_anchors():
-    return jsonify(anchors_location)
+@app.route(room_coordinate_api , methods=['GET'])
+def get_room_coordinate():
+    map = request.args.get('map')
+    return jsonify(room_location if not map else map_location(room_location))
 
-@app.route(tags_api, methods=['GET'])
-def get_tag():
-    return jsonify(tags_location)
+@app.route(anchors_coordinate_api , methods=['GET'])
+def get_anchors_coordinate():
+    map = request.args.get('map')
+    return jsonify(anchors_location if not map else map_location(anchors_location))
+
+@app.route(tags_coordinate_api , methods=['GET'])
+def get_tags_coordinate():
+    map = request.args.get('map')
+    return jsonify(tags_location if not map else map_location(tags_location))
+
+@app.route(anchors_distance_api , methods=['GET'])
+def get_anchors_distance():
+    map = request.args.get('map')
+    return jsonify(anchors_back_calc_distance if not map else map_location(anchors_back_calc_distance))
+
+
+def map_location(location_dict):
+    global room_info, mac_map
+    room_y_length = room_info["y_length"]
+    modified_location_dict = dict()
+    mac_list = list(mac_map.keys())
+    for k, v in location_dict.items():
+        if k in mac_list:
+            k = mac_map[k]
+        modified_location_dict[k] = (v[0], room_y_length - v[1]) if type(v) in [tuple, list] else (room_y_length - v)
+    return modified_location_dict
+
 
 # Run Flask app in a separate thread
 def run_app_thread():
@@ -210,6 +251,36 @@ def get_back_calc_distance(_tag_location, _anchors_location):
     anchors_back_calc_distance[anchor2_mac] = calc_distance(anchor2, _tag_location)
     anchors_back_calc_distance[anchor3_mac] = calc_distance(anchor3, _tag_location)
     return anchors_back_calc_distance
+
+def init():
+    global room_info, room_location, mac_map, tag1_mac, anchor1_mac, anchor2_mac, anchor3_mac
+
+    room_coordinates = list(room_location.values())
+    min_x, min_y = room_coordinates[0]
+    max_x, max_y = min_x, min_y
+
+    for coordinate in room_coordinates:
+        min_x = min(coordinate[0], min_x)
+        max_x = max(coordinate[0], max_x)
+        min_y = min(coordinate[1], min_y)
+        max_y = max(coordinate[1], max_y)
+
+    room_info = {
+        "min_x": min_x,
+        "max_x": max_x,
+        "min_y": min_y,
+        "max_y": max_y,
+        "x_length": max_x - min_x,
+        "y_length": max_y - min_y,
+    }
+
+    mac_map[tag1_mac] = "tag1"
+    mac_map[anchor1_mac] = "a1"
+    mac_map[anchor2_mac] = "a2"
+    mac_map[anchor3_mac] = "a3"
+
+    print("mac_map : ", mac_map)
+    print("room_info : ", room_info)
 
 
 # Main method to run Indoor Positioning System
@@ -340,6 +411,8 @@ def run_ips():
 
 
 if __name__ == "__main__":
+    init()
+
     # Run Flask app in a separate thread
     t = run_app_thread()
 
