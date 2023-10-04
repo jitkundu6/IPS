@@ -15,10 +15,10 @@ Last Update: October 1, 2023
 import json
 import math
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 import threading
 import serial       # pip install pyserial
-from flask import Flask, jsonify, request    # pip install Flask
+from flask import Flask, jsonify    # pip install Flask
 
 
 # Define the serial port device (e.g., '/dev/ttyUSB0' or '/dev/ttyS0')
@@ -30,14 +30,13 @@ anchor1_mac = 'FC:03:15:32:DE:54'
 anchor2_mac = "CE:45:7C:90:D3:D5"   # 'DD:F8:63:2F:91:E3'
 anchor3_mac = 'FA:25:A4:44:D3:FC'
 tag1_mac = 'DD:F8:63:2F:91:E3'
-mac_map = dict()
 
 # Coordinate location of the room where anchors are placed
 room_location = {
-    "A": (0, 0),
-    "B": (0, 22),
-    "C": (20, 22),
-    "D": (20, 0),
+    "A": (0, -22),
+    "B": (0, 0),
+    "C": (20, 0),
+    "D": (20, -22),
 }
 room_info = {
     "min_x": 0,
@@ -46,6 +45,7 @@ room_info = {
     "max_y": 0,
     "x_length": 0,
     "y_length": 0,
+    "coordinate": room_location,
 }
 
 # Coordinate location of all anchors   # TODO: Need to update.
@@ -64,19 +64,19 @@ anchors_location = {    # For Dining Room
 
 # Parameters for measured distance error correction
 distance_offsets = {   # TODO: Need to update.
-    # anchor1_mac:  0, # -0.8,  # 'CE:45:7C:90:D3:D5'
-    # anchor2_mac:  0, # -0.4,  # "FC:03:15:32:DE:54"
-    # anchor3_mac:  0, # -0.3,     # 'FA:25:A4:44:D3:FC'
-    anchor1_mac: -0.8,  # 'CE:45:7C:90:D3:D5'
-    anchor2_mac: -0.4,  # "FC:03:15:32:DE:54"
-    anchor3_mac: -0.3,  # 'FA:25:A4:44:D3:FC'
+    anchor1_mac:  0, # -0.8,  # 'CE:45:7C:90:D3:D5'
+    anchor2_mac:  0, # -0.4,  # "FC:03:15:32:DE:54"
+    anchor3_mac:  0, # -0.3,     # 'FA:25:A4:44:D3:FC'
+    # anchor1_mac: -0.8,  # 'CE:45:7C:90:D3:D5'
+    # anchor2_mac: -0.4,  # "FC:03:15:32:DE:54"
+    # anchor3_mac: -0.3,  # 'FA:25:A4:44:D3:FC'
 }
 distance_correction_factors = {   # TODO: Need to update.
     anchor1_mac: 1.0,  # 'CE:45:7C:90:D3:D5'
     anchor2_mac: 1.0,  # "FC:03:15:32:DE:54"
     anchor3_mac: 1.0,  # 'FA:25:A4:44:D3:FC'
 }
-max_count = 3   # TODO: Need to update.
+max_count = 150   # TODO: Need to update.
 
 # Calculated/Measured values
 anchors_distance = {
@@ -104,68 +104,36 @@ app = Flask(__name__)
 ipAddress = '127.0.0.5'   # TODO: Need to update.
 port = 8000
 index_api = '/'
-room_info_api  = '/room'
-room_coordinate_api = '/room/coordinate/'
-anchors_coordinate_api = '/anchors/coordinate/'
-tags_coordinate_api = '/tags/coordinate/'
-anchors_distance_api = '/anchors/distance/'
+room_api = '/coordinate/room'
+anchors_api = '/coordinate/anchors'
+tags_api = '/coordinate/tags'
 
 
-@app.route(index_api , methods=['GET'])
+@app.route(index_api, methods=['GET'])
 def get_index():
-    map = request.args.get('map')
     return jsonify({
-        'room_info': room_info,
-        'room': room_location if not map else map_location(room_location),
-        'anchors': anchors_location if not map else map_location(anchors_location),
-        'tags': tags_location if not map else map_location(tags_location),
-        'anchors_distance': anchors_back_calc_distance if not map else map_location(anchors_back_calc_distance),
+        'room': room_location,
+        'anchors': anchors_location,
+        'tags': tags_location,
         'api': {
             'index': index_api,
-            'room_info': room_info_api ,
-            'room_coordinate': room_coordinate_api,
-            'anchors_coordinate': anchors_coordinate_api,
-            'tags_coordinate': tags_coordinate_api,
-            'anchors_distance': anchors_distance_api,
+            'room': room_api,
+            'anchors': anchors_api,
+            'tags': tags_api,
         }
     })
 
-@app.route(room_info_api  , methods=['GET'])
+@app.route(room_api, methods=['GET'])
 def get_room():
-    return jsonify(room_info)
+    return jsonify(room_location)
 
-@app.route(room_coordinate_api , methods=['GET'])
-def get_room_coordinate():
-    map = request.args.get('map')
-    return jsonify(room_location if not map else map_location(room_location))
+@app.route(anchors_api, methods=['GET'])
+def get_anchors():
+    return jsonify(anchors_location)
 
-@app.route(anchors_coordinate_api , methods=['GET'])
-def get_anchors_coordinate():
-    map = request.args.get('map')
-    return jsonify(anchors_location if not map else map_location(anchors_location))
-
-@app.route(tags_coordinate_api , methods=['GET'])
-def get_tags_coordinate():
-    map = request.args.get('map')
-    return jsonify(tags_location if not map else map_location(tags_location))
-
-@app.route(anchors_distance_api , methods=['GET'])
-def get_anchors_distance():
-    map = request.args.get('map')
-    return jsonify(anchors_back_calc_distance if not map else map_location(anchors_back_calc_distance))
-
-
-def map_location(location_dict):
-    global room_info, mac_map
-    room_y_length = room_info["y_length"]
-    modified_location_dict = dict()
-    mac_list = list(mac_map.keys())
-    for k, v in location_dict.items():
-        if k in mac_list:
-            k = mac_map[k]
-        modified_location_dict[k] = (v[0], room_y_length - v[1]) if type(v) in [tuple, list] else (room_y_length - v)
-    return modified_location_dict
-
+@app.route(tags_api, methods=['GET'])
+def get_tag():
+    return jsonify(tags_location)
 
 # Run Flask app in a separate thread
 def run_app_thread():
@@ -253,7 +221,7 @@ def get_back_calc_distance(_tag_location, _anchors_location):
     return anchors_back_calc_distance
 
 def init():
-    global room_info, room_location, mac_map, tag1_mac, anchor1_mac, anchor2_mac, anchor3_mac
+    global room_info, room_location
 
     room_coordinates = list(room_location.values())
     min_x, min_y = room_coordinates[0]
@@ -272,19 +240,74 @@ def init():
         "max_y": max_y,
         "x_length": max_x - min_x,
         "y_length": max_y - min_y,
+        "coordinate": room_location,
     }
+    print(room_info)
 
-    mac_map[tag1_mac] = "tag1"
-    mac_map[anchor1_mac] = "a1"
-    mac_map[anchor2_mac] = "a2"
-    mac_map[anchor3_mac] = "a3"
 
-    print("mac_map : ", mac_map)
-    print("room_info : ", room_info)
+import csv
+dataSet = dict()
+dataset_list = []
+def write_csv(data_list, filename='dataset', dirname='', file=''):
+    if not file:
+        file = dirname + filename + ".csv"
+
+    header = []
+    for data in data_list:
+        if len(data.keys()) > len(header):
+            header = data.keys()
+
+    print(f"Updating '{file}' file...")
+    with open(file, 'w') as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(header)
+        for data in data_list:
+            writer.writerow(data.values())
+    csvfile.close()
+    print(f"'{file}' file is updated.")
+
+
+import numpy as np
+lastD = 0
+distance_list = []
+mcpd_high_precision_list = []
+mcpd_ifft_list = []
+mcpd_phase_slope_list = []
+mcpd_rssi_openspace_list = []
+
+last_time = datetime.now()
+
+def smoothen(currentD):
+    global lastD
+
+    mean = np.mean(currentD)
+    std = np.std(currentD)
+    var = np.var(currentD)
+
+    upper = mean + std
+    lower = mean - std
+    smoothD = lastD
+
+    if abs(upper - lastD) > abs(lower - lastD):
+        smoothD = upper
+    elif abs(upper - lastD) < abs(lower - lastD):
+        smoothD = lower
+
+    lastD = smoothD
+    return round(smoothD, 2), mean, std, var, upper, lower
+
+
+def get_stats(currentD):
+    mean = np.mean(currentD)
+    std = np.std(currentD)
+    var = np.var(currentD)
+
+    return mean, std, var
 
 
 # Main method to run Indoor Positioning System
 def run_ips():
+    global distance_list, last_time, mcpd_high_precision_list, mcpd_ifft_list, mcpd_phase_slope_list, mcpd_rssi_openspace_list
     distance_dict = dict()
     while True:
         try:
@@ -305,8 +328,28 @@ def run_ips():
                         if result['quality'] in ['ok', 'poor']:
                             current_time = datetime.now()
                             result['addr'] = result['addr'].replace(" (random)", "")
-                            distance = eval(result['mcpd_best'])
+                            mcpd_high_precision = 0 if result['mcpd_high_precision'] == 'nan' else eval(result['mcpd_high_precision'])
+                            mcpd_ifft = 0 if result['mcpd_high_precision'] == 'nan' else eval(result['mcpd_ifft'])
+                            mcpd_phase_slope = 0 if result['mcpd_high_precision'] == 'nan' else  eval(result['mcpd_phase_slope'])
+                            mcpd_rssi_openspace =  0 if result['mcpd_high_precision'] == 'nan' else eval(result['mcpd_rssi_openspace'])
+
+                            mcpd_high_precision = mcpd_high_precision * 100
+                            mcpd_ifft = mcpd_ifft * 100
+                            mcpd_phase_slope = mcpd_phase_slope * 100
+                            mcpd_rssi_openspace =  mcpd_rssi_openspace * 100
+
+                            distance = eval(result['mcpd_best']) * 100
                             distance = (round((distance + distance_offsets[result['addr']]) * distance_correction_factors[result['addr']], 2)) # Rectified
+                            distance_list.append(distance)
+
+                            if mcpd_high_precision:
+                                mcpd_high_precision_list.append(mcpd_high_precision)
+                            if mcpd_ifft:
+                                mcpd_ifft_list.append(mcpd_ifft)
+                            if mcpd_phase_slope:
+                                mcpd_phase_slope_list.append(mcpd_phase_slope/2)
+                            if mcpd_rssi_openspace:
+                                mcpd_rssi_openspace_list.append(mcpd_rssi_openspace)
 
                             # Distance smoothing
                             device_distance_list = distance_dict.get(result['addr'])
@@ -323,77 +366,143 @@ def run_ips():
                             anchors_distance[result['addr']] = smooth_distance
                             anchors_distance_update_time[result['addr']] = current_time
 
-                            print("\n\n\n######### Received")
-                            print(f"distance: {distance}    |   smooth: {smooth_distance}   | Result: {result}")
+                            print("\n phase shift ", mcpd_phase_slope_list)
 
-                            _tag_location = get_tag_location(anchors_location, anchors_distance)
-                            print("_tag_loaction: ", _tag_location)
-                            print("anchors_location: ", anchors_location)
-                            # print(json.dumps(anchors_location))
+                            currentD = mcpd_high_precision_list + mcpd_ifft_list + mcpd_phase_slope_list
+                            print("\n smoothen_li -> ", currentD)
+                            print("\n smoothen_li len ", len(currentD))
 
-                            anchors_back_calc_distance = get_back_calc_distance(_tag_location, anchors_location)
-                            print("anchors_distance: ", anchors_distance)
-                            print("anchors_back_calc_distance: ", anchors_back_calc_distance)
-                            print("current_time: ", current_time)
-                            print("anchors_distance_update_time: ", anchors_distance_update_time)
+                            if current_time - last_time > timedelta(seconds=45):
+                                last_time = current_time
+                                print("\n\n\n######### Received")
+                                print(f"distance: {distance}    |   smooth: {smooth_distance}   | Result: {result}")
+                                smoothen_distance, mean, std, var, upper, lower = smoothen(currentD)
 
-                            total_distance_abs_deviation = sum([
-                                abs(anchors_back_calc_distance[anchor1_mac] - anchors_distance[anchor1_mac]),
-                                abs(anchors_back_calc_distance[anchor2_mac] - anchors_distance[anchor2_mac]),
-                                abs(anchors_back_calc_distance[anchor3_mac] - anchors_distance[anchor3_mac])
-                            ])
-                            total_distance_deviation = abs(sum([
-                                (anchors_back_calc_distance[anchor1_mac] - anchors_distance[anchor1_mac]),
-                                (anchors_back_calc_distance[anchor2_mac] - anchors_distance[anchor2_mac]),
-                                (anchors_back_calc_distance[anchor3_mac] - anchors_distance[anchor3_mac])
-                            ]))
+                                mcpd_high_precision_mean, mcpd_high_precision_std, mcpd_high_precision_var = get_stats(mcpd_high_precision_list)
+                                mcpd_ifft_mean, mcpd_ifft_std, mcpd_ifft_var = get_stats(mcpd_ifft_list)
+                                mcpd_phase_slope_mean, mcpd_phase_slope_std, mcpd_phase_slope_var = get_stats(mcpd_phase_slope_list)
+                                mcpd_rssi_openspace_mean, mcpd_rssi_openspace_std, mcpd_rssi_openspace_var = get_stats(mcpd_rssi_openspace_list)
+                                mcpd_best_mean, mcpd_best_std, mcpd_best_var = get_stats(distance_list)
+                                smooth_mean, smooth_std, smooth_var = get_stats(device_distance_list)
 
-                            max_distance_abs_deviation = max([
-                                abs(anchors_back_calc_distance[anchor1_mac] - anchors_distance[anchor1_mac]),
-                                abs(anchors_back_calc_distance[anchor2_mac] - anchors_distance[anchor2_mac]),
-                                abs(anchors_back_calc_distance[anchor3_mac] - anchors_distance[anchor3_mac])
-                            ])
-                            print("total_distance_deviation: ", total_distance_deviation)
-                            print("total_distance_abs_deviation: ", total_distance_abs_deviation)
-                            print("max_distance_abs_deviation: ", max_distance_abs_deviation)
+                                mcpd_high_precision_list = []
+                                mcpd_ifft_list = []
+                                mcpd_phase_slope_list = []
+                                mcpd_rssi_openspace_list = []
 
-                            anchors_distance_update_lag = {
-                                anchor1_mac : current_time - anchors_distance_update_time[anchor1_mac],
-                                anchor2_mac : current_time - anchors_distance_update_time[anchor2_mac],
-                                anchor3_mac : current_time - anchors_distance_update_time[anchor3_mac],
-                            }
-                            print("anchors_distance_update_lag: ", anchors_distance_update_lag)
+                                print(f"smoothen distance: ", smoothen_distance)
+                                distance_list = []
+                                dataSet = {
+                                    "timestamp": str(current_time),
+                                    # 'mcpd_high_precision': mcpd_high_precision,
+                                    # 'mcpd_ifft': mcpd_ifft,
+                                    # 'mcpd_phase_slope': mcpd_phase_slope,
+                                    # 'mcpd_rssi_openspace': mcpd_rssi_openspace,
+                                    "mcpd_best": distance,
+                                    "smooth_distance": smooth_distance,
+                                    #"new_smoothen_distance": smoothen_distance,
+                                    "mean": mean,
+                                    "std": std,
+                                    "var": var,
+                                    # "upper": upper,
+                                    # "lower": lower,
 
-                            total_update_time_lag = sum([
-                                anchors_distance_update_lag[anchor1_mac].seconds,
-                                anchors_distance_update_lag[anchor2_mac].seconds,
-                                anchors_distance_update_lag[anchor3_mac].seconds,
-                            ])
-                            print("total_update_time_lag: ", total_update_time_lag)
-                            max_update_time_lag = max([
-                                anchors_distance_update_lag[anchor1_mac].seconds,
-                                anchors_distance_update_lag[anchor2_mac].seconds,
-                                anchors_distance_update_lag[anchor3_mac].seconds,
-                            ])
-                            print("max_update_time_lag: ", max_update_time_lag)
+                                    "smooth_mean": smooth_mean,
+                                    "smooth_std": smooth_std,
+                                    "smooth_var": smooth_var,
 
-                            distance_flag = False
-                            time_flag = False
+                                    "mcpd_best_mean": mcpd_best_mean,
+                                    "mcpd_best_std": mcpd_best_std,
+                                    "mcpd_best_var": mcpd_best_var,
 
-                            if max_update_time_lag <= 5:
-                                time_flag = True
-                                print("(valid time) _tag_loaction: ", _tag_location)
+                                    "mcpd_high_precision_mean": mcpd_high_precision_mean,
+                                    "mcpd_high_precision_std": mcpd_high_precision_std,
+                                    "mcpd_high_precision_var": mcpd_high_precision_var,
 
-                            if max_distance_abs_deviation <= 7:   # TODO: Need to update.
-                                distance_flag = True
-                                print("(valid distance) _tag_loaction: ", _tag_location)
+                                    "mcpd_ifft_mean": mcpd_ifft_mean,
+                                    "mcpd_ifft_std": mcpd_ifft_std,
+                                    "mcpd_ifft_var": mcpd_ifft_var,
 
-                            if distance_flag and time_flag:
-                                tags_location[tag1_mac] = _tag_location
+                                    "mcpd_phase_slope_mean": mcpd_phase_slope_mean,
+                                    "mcpd_phase_slope_std": mcpd_phase_slope_std,
+                                    "mcpd_phase_slope_var": mcpd_phase_slope_var,
 
-                            print("tags_location: ", tags_location)
-                            # print(json.dumps(tags_location))
-                            # print(json.dumps(room_location))
+                                    "mcpd_rssi_openspace_mean": mcpd_rssi_openspace_mean,
+                                    "mcpd_rssi_openspace_std": mcpd_rssi_openspace_std,
+                                    "mcpd_rssi_openspace_var": mcpd_rssi_openspace_var,
+
+                                }
+                                dataset_list.append(dataSet)
+                                write_csv(dataset_list)
+
+                                _tag_location = get_tag_location(anchors_location, anchors_distance)
+                                print("_tag_loaction: ", _tag_location)
+                                print("anchors_location: ", anchors_location)
+                                # print(json.dumps(anchors_location))
+
+                                anchors_back_calc_distance = get_back_calc_distance(_tag_location, anchors_location)
+                                print("anchors_distance: ", anchors_distance)
+                                print("anchors_back_calc_distance: ", anchors_back_calc_distance)
+                                print("current_time: ", current_time)
+                                print("anchors_distance_update_time: ", anchors_distance_update_time)
+
+                                total_distance_abs_deviation = sum([
+                                    abs(anchors_back_calc_distance[anchor1_mac] - anchors_distance[anchor1_mac]),
+                                    abs(anchors_back_calc_distance[anchor2_mac] - anchors_distance[anchor2_mac]),
+                                    abs(anchors_back_calc_distance[anchor3_mac] - anchors_distance[anchor3_mac])
+                                ])
+                                total_distance_deviation = abs(sum([
+                                    (anchors_back_calc_distance[anchor1_mac] - anchors_distance[anchor1_mac]),
+                                    (anchors_back_calc_distance[anchor2_mac] - anchors_distance[anchor2_mac]),
+                                    (anchors_back_calc_distance[anchor3_mac] - anchors_distance[anchor3_mac])
+                                ]))
+
+                                max_distance_abs_deviation = max([
+                                    abs(anchors_back_calc_distance[anchor1_mac] - anchors_distance[anchor1_mac]),
+                                    abs(anchors_back_calc_distance[anchor2_mac] - anchors_distance[anchor2_mac]),
+                                    abs(anchors_back_calc_distance[anchor3_mac] - anchors_distance[anchor3_mac])
+                                ])
+                                print("total_distance_deviation: ", total_distance_deviation)
+                                print("total_distance_abs_deviation: ", total_distance_abs_deviation)
+                                print("max_distance_abs_deviation: ", max_distance_abs_deviation)
+
+                                anchors_distance_update_lag = {
+                                    anchor1_mac : current_time - anchors_distance_update_time[anchor1_mac],
+                                    anchor2_mac : current_time - anchors_distance_update_time[anchor2_mac],
+                                    anchor3_mac : current_time - anchors_distance_update_time[anchor3_mac],
+                                }
+                                print("anchors_distance_update_lag: ", anchors_distance_update_lag)
+
+                                total_update_time_lag = sum([
+                                    anchors_distance_update_lag[anchor1_mac].seconds,
+                                    anchors_distance_update_lag[anchor2_mac].seconds,
+                                    anchors_distance_update_lag[anchor3_mac].seconds,
+                                ])
+                                print("total_update_time_lag: ", total_update_time_lag)
+                                max_update_time_lag = max([
+                                    anchors_distance_update_lag[anchor1_mac].seconds,
+                                    anchors_distance_update_lag[anchor2_mac].seconds,
+                                    anchors_distance_update_lag[anchor3_mac].seconds,
+                                ])
+                                print("max_update_time_lag: ", max_update_time_lag)
+
+                                distance_flag = False
+                                time_flag = False
+
+                                if max_update_time_lag <= 5:
+                                    time_flag = True
+                                    print("(valid time) _tag_loaction: ", _tag_location)
+
+                                if max_distance_abs_deviation <= 7:   # TODO: Need to update.
+                                    distance_flag = True
+                                    print("(valid distance) _tag_loaction: ", _tag_location)
+
+                                if distance_flag and time_flag:
+                                    tags_location[tag1_mac] = _tag_location
+
+                                print("tags_location: ", tags_location)
+                                # print(json.dumps(tags_location))
+                                # print(json.dumps(room_location))
 
                 except serial.SerialException as e:
                     print(f"SerialException: {e}")
@@ -411,10 +520,10 @@ def run_ips():
 
 
 if __name__ == "__main__":
-    init()
+    #init()
 
     # Run Flask app in a separate thread
-    t = run_app_thread()
+    #t = run_app_thread()
 
     # Run Indoor Positioning System
     run_ips()
