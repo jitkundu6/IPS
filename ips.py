@@ -8,8 +8,8 @@ and provides a Flask API to track the real-time location of
 the mobile tag within a room equipped with fixed anchors.
 
 Author: Subhajit Kundu
-Version: 1.0.0
-Last Update: October 1, 2023
+Version: 1.0.1
+Last Update: October 5, 2023
 """
 
 import json
@@ -19,6 +19,7 @@ from datetime import datetime
 import threading
 import serial       # pip install pyserial
 from flask import Flask, jsonify, request    # pip install Flask
+import  numpy as np
 
 
 # Define the serial port device (e.g., '/dev/ttyUSB0' or '/dev/ttyS0')
@@ -26,18 +27,18 @@ serial_port = '/dev/ttyACM0'
 # serial_port = '/dev/ttyACM1'
 baud_rate = 115200  # Set the baud rate to match your device configuration
 
-anchor1_mac = 'FC:03:15:32:DE:54'
+anchor1_mac = 'FA:25:A4:44:D3:FC'
 anchor2_mac = "CE:45:7C:90:D3:D5"   # 'DD:F8:63:2F:91:E3'
-anchor3_mac = 'FA:25:A4:44:D3:FC'
+anchor3_mac = 'FC:03:15:32:DE:54'
 tag1_mac = 'DD:F8:63:2F:91:E3'
 mac_map = dict()
 
 # Coordinate location of the room where anchors are placed
-room_location = {
+room_location = {   # TODO: Need to update.
     "A": (0, 0),
-    "B": (0, 22),
-    "C": (20, 22),
-    "D": (20, 0),
+    "B": (0, 10.8),
+    "C": (15.35, 10.8),
+    "D": (15.35, 0),
 }
 room_info = {
     "min_x": 0,
@@ -55,9 +56,9 @@ room_info = {
 #     anchor3_mac: (1.8, 3.25),
 # }
 anchors_location = {    # For Dining Room
-    anchor1_mac: (0, 1.3),
-    anchor2_mac: (2.45, 2.4),
-    anchor3_mac: (4, 0.1),
+    anchor1_mac: (0, 7.8),
+    anchor2_mac: (3.95, 0),
+    anchor3_mac: (15.3, 2.5),
     # anchor3_mac: (5.3, 1.0),
     # anchor3_mac: (3.3, -3.6),
 }
@@ -67,16 +68,19 @@ distance_offsets = {   # TODO: Need to update.
     # anchor1_mac:  0, # -0.8,  # 'CE:45:7C:90:D3:D5'
     # anchor2_mac:  0, # -0.4,  # "FC:03:15:32:DE:54"
     # anchor3_mac:  0, # -0.3,     # 'FA:25:A4:44:D3:FC'
-    anchor1_mac: -0.8,  # 'CE:45:7C:90:D3:D5'
-    anchor2_mac: -0.4,  # "FC:03:15:32:DE:54"
-    anchor3_mac: -0.3,  # 'FA:25:A4:44:D3:FC'
+    # anchor1_mac: -1.1,  # 'CE:45:7C:90:D3:D5'   # Optra Lab
+    # anchor2_mac: -1.0,  # "FC:03:15:32:DE:54"
+    # anchor3_mac: -1.1,  # 'FA:25:A4:44:D3:FC'
+    anchor1_mac: -0.3,  # 'CE:45:7C:90:D3:D5'
+    anchor2_mac: -1.2,  # "FC:03:15:32:DE:54"
+    anchor3_mac: -1.4,  # 'FA:25:A4:44:D3:FC'
 }
 distance_correction_factors = {   # TODO: Need to update.
     anchor1_mac: 1.0,  # 'CE:45:7C:90:D3:D5'
     anchor2_mac: 1.0,  # "FC:03:15:32:DE:54"
     anchor3_mac: 1.0,  # 'FA:25:A4:44:D3:FC'
 }
-max_count = 3   # TODO: Need to update.
+max_count = 20   # TODO: Need to update.
 
 # Calculated/Measured values
 anchors_distance = {
@@ -101,7 +105,7 @@ tags_location = {
 # Creating Flask app and declaring apis
 app = Flask(__name__)
 
-ipAddress = '127.0.0.5'   # TODO: Need to update.
+ipAddress = '0.0.0.0'   # TODO: Need to update.
 port = 8000
 index_api = '/'
 room_info_api  = '/room'
@@ -163,7 +167,7 @@ def map_location(location_dict):
     for k, v in location_dict.items():
         if k in mac_list:
             k = mac_map[k]
-        modified_location_dict[k] = (v[0], room_y_length - v[1]) if type(v) in [tuple, list] else (room_y_length - v)
+        modified_location_dict[k] = (v[0], round(room_y_length - v[1], 2)) if type(v) in [tuple, list] else round(v, 2)
     return modified_location_dict
 
 
@@ -380,11 +384,11 @@ def run_ips():
                             distance_flag = False
                             time_flag = False
 
-                            if max_update_time_lag <= 5:
+                            if max_update_time_lag <= 80:   # TODO: Need to update.
                                 time_flag = True
                                 print("(valid time) _tag_loaction: ", _tag_location)
 
-                            if max_distance_abs_deviation <= 7:   # TODO: Need to update.
+                            if max_distance_abs_deviation <= 30:   # TODO: Need to update.
                                 distance_flag = True
                                 print("(valid distance) _tag_loaction: ", _tag_location)
 
@@ -410,6 +414,19 @@ def run_ips():
             time.sleep(2)
 
 
+def dummy_tags_update():
+    global anchors_back_calc_distance
+    while True:
+        _x = round(float(np.random.uniform(room_info["min_x"], room_info["max_x"], size=1)), 2)
+        _y = round(float(np.random.uniform(room_info["min_y"], room_info["max_y"], size=1)), 2)
+        _tag_location = (_x, _y)
+        anchors_back_calc_distance = get_back_calc_distance(_tag_location, anchors_location)
+        tags_location[tag1_mac] = _tag_location
+        print("tags_location:", tags_location)
+        print("map_location tags_location:", map_location(tags_location))
+        time.sleep(1)
+
+
 if __name__ == "__main__":
     init()
 
@@ -418,3 +435,4 @@ if __name__ == "__main__":
 
     # Run Indoor Positioning System
     run_ips()
+    # dummy_tags_update()
