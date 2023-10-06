@@ -27,9 +27,9 @@ serial_port = '/dev/ttyACM0'
 # serial_port = '/dev/ttyACM1'
 baud_rate = 115200  # Set the baud rate to match your device configuration
 
-anchor1_mac = 'FA:25:A4:44:D3:FC'
+anchor1_mac = 'FC:03:15:32:DE:54'
 anchor2_mac = "CE:45:7C:90:D3:D5"   # 'DD:F8:63:2F:91:E3'
-anchor3_mac = 'FC:03:15:32:DE:54'
+anchor3_mac = 'FA:25:A4:44:D3:FC'
 tag1_mac = 'DD:F8:63:2F:91:E3'
 mac_map = dict()
 
@@ -71,16 +71,19 @@ distance_offsets = {   # TODO: Need to update.
     # anchor1_mac: -1.1,  # 'CE:45:7C:90:D3:D5'   # Optra Lab
     # anchor2_mac: -1.0,  # "FC:03:15:32:DE:54"
     # anchor3_mac: -1.1,  # 'FA:25:A4:44:D3:FC'
-    anchor1_mac: -0.3,  # 'CE:45:7C:90:D3:D5'
-    anchor2_mac: -1.2,  # "FC:03:15:32:DE:54"
-    anchor3_mac: -1.4,  # 'FA:25:A4:44:D3:FC'
+    'FC:03:15:32:DE:54': -0.3,
+    'CE:45:7C:90:D3:D5': -0.7,
+    'FA:25:A4:44:D3:FC': -0.4,
 }
 distance_correction_factors = {   # TODO: Need to update.
-    anchor1_mac: 1.0,  # 'CE:45:7C:90:D3:D5'
-    anchor2_mac: 1.0,  # "FC:03:15:32:DE:54"
-    anchor3_mac: 1.0,  # 'FA:25:A4:44:D3:FC'
+    # anchor1_mac: 1.0,  # "FC:03:15:32:DE:54"
+    # anchor2_mac: 1.0,  # 'CE:45:7C:90:D3:D5'
+    # anchor3_mac: 1.0,  # 'FA:25:A4:44:D3:FC'
+    'FC:03:15:32:DE:54': 1.0,
+    'CE:45:7C:90:D3:D5': 1.0,
+    'FA:25:A4:44:D3:FC': 1.0,
 }
-max_count = 20   # TODO: Need to update.
+max_count = 10   # TODO: Need to update.
 
 # Calculated/Measured values
 anchors_distance = {
@@ -159,6 +162,14 @@ def get_anchors_distance():
     return jsonify(anchors_back_calc_distance if not map else map_location(anchors_back_calc_distance))
 
 
+def limit(value, lower=0, upper=0):
+    if value > upper:
+        value = upper
+    elif value < lower:
+        value = lower
+    return value
+
+
 def map_location(location_dict):
     global room_info, mac_map
     room_y_length = room_info["y_length"]
@@ -167,7 +178,10 @@ def map_location(location_dict):
     for k, v in location_dict.items():
         if k in mac_list:
             k = mac_map[k]
-        modified_location_dict[k] = (v[0], round(room_y_length - v[1], 2)) if type(v) in [tuple, list] else round(v, 2)
+        if type(v) in [tuple, list]:
+            modified_location_dict[k] = (limit(v[0], lower=room_info['min_x'], upper=room_info['max_x']), round(room_y_length - limit(v[1], lower=room_info['min_y'], upper=room_info['max_y']), 2))
+        else:
+            modified_location_dict[k] = round(v, 2)
     return modified_location_dict
 
 
@@ -384,11 +398,11 @@ def run_ips():
                             distance_flag = False
                             time_flag = False
 
-                            if max_update_time_lag <= 80:   # TODO: Need to update.
+                            if max_update_time_lag <= 10:   # TODO: Need to update.
                                 time_flag = True
                                 print("(valid time) _tag_loaction: ", _tag_location)
 
-                            if max_distance_abs_deviation <= 30:   # TODO: Need to update.
+                            if max_distance_abs_deviation <= 5:   # TODO: Need to update.
                                 distance_flag = True
                                 print("(valid distance) _tag_loaction: ", _tag_location)
 
