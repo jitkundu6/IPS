@@ -27,9 +27,9 @@ serial_port = '/dev/ttyACM0'
 # serial_port = '/dev/ttyACM1'
 baud_rate = 115200  # Set the baud rate to match your device configuration
 
-anchor1_mac = 'FC:03:15:32:DE:54'
+anchor1_mac = 'FA:25:A4:44:D3:FC'
 anchor2_mac = "CE:45:7C:90:D3:D5"   # 'DD:F8:63:2F:91:E3'
-anchor3_mac = 'FA:25:A4:44:D3:FC'
+anchor3_mac = 'FC:03:15:32:DE:54'
 tag1_mac = 'DD:F8:63:2F:91:E3'
 mac_map = dict()
 
@@ -55,10 +55,17 @@ room_info = {
 #     anchor2_mac: (3.3, 1.3),
 #     anchor3_mac: (1.8, 3.25),
 # }
-anchors_location = {    # For Dining Room
+# anchors_location = {    # For Dining Room
+#     anchor1_mac: (0, 7.8),
+#     anchor2_mac: (3.95, 0),
+#     anchor3_mac: (15.3, 2.5),
+#     # anchor3_mac: (5.3, 1.0),
+#     # anchor3_mac: (3.3, -3.6),
+# }
+anchors_location = {    # 4th Floor Cafeteria
     anchor1_mac: (0, 7.8),
-    anchor2_mac: (3.95, 0),
-    anchor3_mac: (15.3, 2.5),
+    anchor2_mac: (8.0, 2.8),
+    anchor3_mac: (14.7, 10.8),
     # anchor3_mac: (5.3, 1.0),
     # anchor3_mac: (3.3, -3.6),
 }
@@ -83,7 +90,7 @@ distance_correction_factors = {   # TODO: Need to update.
     'CE:45:7C:90:D3:D5': 1.0,
     'FA:25:A4:44:D3:FC': 1.0,
 }
-max_count = 10   # TODO: Need to update.
+max_count = 5   # TODO: Need to update.
 
 # Calculated/Measured values
 anchors_distance = {
