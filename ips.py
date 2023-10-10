@@ -90,7 +90,7 @@ distance_correction_factors = {   # TODO: Need to update.
     'CE:45:7C:90:D3:D5': 1.0,
     'FA:25:A4:44:D3:FC': 1.0,
 }
-max_count = 5   # TODO: Need to update.
+max_count = 6   # TODO: Need to update.
 
 # Calculated/Measured values
 anchors_distance = {
@@ -405,7 +405,7 @@ def run_ips():
                             distance_flag = False
                             time_flag = False
 
-                            if max_update_time_lag <= 10:   # TODO: Need to update.
+                            if max_update_time_lag <= 20:   # TODO: Need to update.
                                 time_flag = True
                                 print("(valid time) _tag_loaction: ", _tag_location)
 
