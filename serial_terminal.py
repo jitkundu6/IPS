@@ -1,7 +1,7 @@
 import serial   # pip install pyserial
 
 # Define the serial port device (e.g., '/dev/ttyUSB0' or '/dev/ttyS0')
-serial_port = '/dev/ttyACM0'  # Replace with your device's path
+serial_port = '/dev/ttyUSB0'  # '/dev/ttyACM0'  # Replace with your device's path
 # serial_port = '/dev/ttyACM1'  # Replace with your device's path
 # serial_port = '/dev/ttyACM2'  # Replace with your device's path
 baud_rate = 115200  # Set the baud rate to match your device configuration
